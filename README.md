@@ -2,7 +2,7 @@
 Data and R code to model and analyse the seasonal structural and functional properties of the pelagic food web of the Sylt-Rømø Bight, Northern Wadden Sea, Germany. 
 This work is part of a Master thesis in progress.
 
-Description:We assessed the seasonal functioning of the pelagic food web of the Sylt-Rømø Bight, a tidal basin of the Northern Wadden Sea, 
+Description: We assessed the seasonal functioning of the pelagic food web of the Sylt-Rømø Bight, a tidal basin of the Northern Wadden Sea, 
 across spring (Mar.-May), summer (Jun.-Aug.) and autumn (Sept.-Nov.) of the years 2009 and 2010. These years substantially differed in their 
 seasonal plankton population dynamics and these pronounced interannual differences were associated to the ice cold winter event of 2009/2010 
 that interrupted a series of preceding mild winters. In doing so, this study is the first (1) to describe in detail the pelagic food web of 
