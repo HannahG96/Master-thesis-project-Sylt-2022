@@ -1,5 +1,5 @@
-# Seasonal functioning 
-Data and R code to model and analyse the seasonal functioning of the pelagic food web of the Sylt-Rømø Bight, Northern Wadden Sea, Germany. 
+# Assessing the seasonality of pelagic food web functioning in the Wadden Sea before and after the ice cold winter event of 2009/10
+Data and R code to model and analyse the seasonal structural and functional properties of the pelagic food web of the Sylt-Rømø Bight, Northern Wadden Sea, Germany. 
 This work is part of a Master thesis in progress.
 
 Description:We assessed the seasonal functioning of the pelagic food web of the Sylt-Rømø Bight, a tidal basin of the Northern Wadden Sea, 
