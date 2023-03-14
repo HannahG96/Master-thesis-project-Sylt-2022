@@ -1,0 +1,92 @@
+﻿Cross-check with other studies;Study site;Studied taxon;Compartment;Column;Rate R;Unit;Temperature;MSR or log(MSR);Source;Conversion [mg C/mg C/day] or [m3/mg C/day];C_PREY [mg C/m3];Comments
+;Meta-analysis;flagellates;Nsci;N.scintillans;RR;uL O2/mg C/h;15;2.24+0.17*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"C-content of N. scintillans=0.0002mg C/cell (Kiorboe & Titelman,1998); 1ul=0.001ml ; ml O2-->mg O2 = 1.426; mg O2-->mg C = 0.309; 1 day = 24 h"
+;Port Shelter (Hong Kong)+Laboratory;N. scintillans;Nsci;N.scintillans;IR;ng C/idv/day;23;244,6666667;Zhang et al. (2015);MSR*10^(-6)/0.0002;;"Feeding experiments with 3 different types of algae-->use of average Imax across experiments; C-content of N. scintillans = 0.00022 mg C/cell (Kiorboe & Titelmann, 1998)"
+;Laboratory;N. scintillans;Nsci;N.scintillans;GR;/day;13;0,41;Strom & Morello (1998);;;
+;west coast of Sweden+laboratory;N. scintillans;Nsci;N.scintillans;CR;ul/idv/h;18;32,29;Kiorboe & Titelman (1998);((MSR*10^(-9)*C_PREY)/0.0002)*24;0.3*10^(9)*78*10^(-9);"1ul=10^(-6) ; food concentration = 0.3 cells/ul = 0.3*10^(9) cells/m3 ; C-content of T. weisflogii cell = 78*10^(-9) mg C/cell (Zhang et al., 2016) ; C-content of N. scintillans = 0.00022 mg C/cell ; 1 day = 24h"
+;Laboratory;Strombidium capitatum;Cil;ciliates;RR;pct cell C/hour;15;2,5;Crawford & Stoeker (1996);(MSR/100)*24;;Small cells (<7ng C) respired 3-5% cell C/hour, while larger cells (7-12ng C) respired 1-2% cell C per hour -->use of arbitrarily chosen value in between
+"0.696-2.88 (18°C)/day (Hansen,1997) ; 0.51/day (Jakobsen & Hansen, 1991)";Meta-analysis;ciliates;Cil;ciliates;IR;ug C/mg C/h;15;1.29-0.16*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*24;;"average C-content of ciliates (Putt & Stoecker, 1986) = 9.5*10^(-6) mg C ;1 ug = 0.001 mg; 1 day = 24 h -->use of IR from mass-specific regression as IRs highly vary among species"
+;Laboratory;Favella sp., Uronema sp., Strombidinopsis acuminatum;Cil;ciliates;GR;/day;13;0,88;Strom & Morello (1998);;;
+;Meta-analysis;calanoid copepods;Cop;Acartia_sp;RR;ul O2/mg C/h;15;0.54-0.22*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;calanoid copepods;Cop;T.longicornis;RR;ul O2/mg C/h;15;0.54-0.22*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;calanoid copepods;Cop;C.hamatus;RR;ul O2/mg C/h;15;0.54-0.22*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;calanoid copepods;Cop;P.elongatus;RR;ul O2/mg C/h;15;0.54-0.22*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;calanoid copepods;Cop;P.parvus;RR;ul O2/mg C/h;15;0.54-0.22*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;non calanoid copepods;Cop;Oithona_sp;RR;ul O2/mg C/h;15;(-0.5)-0.37*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;non calanoid copepods;Cop;harpacticoids;RR;ul O2/mg C/h;15;(-0.5)-0.37*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+"1.0032 (18°C)/day (Hansen, 1997) ; 20-166% of body C/day (Fileman et al., 2010)";Meta-analysis;calanoid copepods;;Acartia_sp;IR;ug C/mg C/h;15;1.11-0,20*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*24;;"1 ug = 0.001 mg; 1 day = 24 h"
+80-146% of body C (12.5°C)/day;Meta-analysis;calanoid copepods;;T.longicornis;IR;ug C/mg C/h;15;1.11-0,20*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*24;;"1 ug = 0.001 mg; 1 day = 24 h"
+"1.776 (15°C)/day (Hansen, 1991) ; 115-163% of body C/day (Olivares et al., 2020)";Meta-analysis;calanoid copepods;;C.hamatus;IR;ug C/mg C/h;15;1.11-0,20*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*24;;"1 ug = 0.001 mg; 1 day = 24 h"
+"0.792 (12.5°C)/day (Hansen, 1997) ; 6-78% of body C/day (Fileman, 2007) ;  ; 63%-148% of body C (12.5°C)/day (Paffenhöfer & Harris, 1976a)";Meta-analysis;calanoid copepods;;P.elongatus;IR;ug C/mg C/h;15;1.11-0,20*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*24;;"1 ug = 0.001 mg; 1 day = 24 h"
+6-78% of body C/day (Fileman, 2007);Meta-analysis;calanoid copepods;Cop;P.parvus;IR;ug C/mg C/h;15;1.11-0,20*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*24;;"1 ug = 0.001 mg; 1 day = 24 h"
+;Buzzards Bay, USA+Laboratory;Oithona similis;;Oithona_sp;IR;/day;20;0,41;Nakamura & Turner (1997);;;feeding experiment on mixed protozooplankton diet, diatoms were not considered but were assumed to be unimportant in O.similis diet
+;Kochi island (Arabian Sea);Euterpina acutifrons;;harpacticoids;IR;ug C/idv/day;26;3,633333333;Jagadesaan et al. (2017);MSR/2.2;;"use of average feeding rate across experiments with mixed diets; C-content of experimental Euterpina specimen: 2.2ug C ; 1ug C=0.001mg C"
+0.456 (17°C)/day (Hansen, 1997);Meta-analysis;calanoid copepods;Cop;Acartia_sp;GR;mg C/mg C/h;15;(-2.17)-0.06*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1 day = 24 h
+;Meta-analysis;calanoid copepods;Cop;T.longicornis;GR;mg C/mg C/h;15;(-2.17)-0.06*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1 day = 24 h
+0.36 (17°C)/day (Hansen, 1997);Meta-analysis;calanoid copepods;Cop;C.hamatus;GR;mg C/mg C/h;15;(-2.17)-0.06*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1 day = 24 h
+0.108-0.2256 (15°C) (Hansen, 1997);Meta-analysis;calanoid copepods;Cop;P.elongatus;GR;mg C/mg C/h;15;(-2.17)-0.06*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1 day = 24 h
+;Meta-analysis;calanoid copepods;Cop;P.parvus;GR;mg C/mg C/h;15;(-2.17)-0.06*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1 day = 24 h
+;Laboratory;Oithona similis;Cop;Oithona_sp;GR;per day;15;0,2;Sabatini & Kiørboe;;;
+;Marenne-Oléron Bay, France;Euterpina acutifrons;Cop;harpacticoids;GR;per day;18;0,1985;Sautour & Castel;;;use of average P/B-ratio calculated in the study, use of temperature estimate arbitarily chosen within the range of measurements (17-21°C)
+;Sao Sebastiao Channel (Brasil)+Laboratory;Penilia avirostris;Clado;Podon_sp;GR;per day;26,8;0,17;Atienza et al. (2007);;;
+;Sao Sebastiao Channel (Brasil)+Laboratory;Penilia avirostris;Clado;Evadne_sp;GR;per day;26,8;0,17;Atienza et al. (2007);;;
+;NW Mediterranean;Penilia avirostris;;Podon_sp;IR;per day;24,6625;0,82;Atienza et al. (2006b);;;"Penilia feeding on natural plankton community during bloom conditions (Range is 26-157% of body C per day) ; use of average temperature across experiments"
+;NW Mediterranean;Penilia avirostris;Clado;Evadne_sp;IR;per day;24,6625;0,82;Atienza et al. (2006b);;;"Penilia feeding on natural plankton community during bloom conditions (Range is 26-157% of body C per day) ; use of average temperature across experiments"
+;NW Mediterranean;Penilia avirostris;Clado;Podon_sp;RR;ul O2/ug C/day;23,77;0,973;Atienza et al. (2006);(MSR*0.001*1.426*0.309)/0.001;;"1ul = 0.001 ml; ml O2-->mg O2 = 1.426; mg O2-->mg C = 0.309; 1ug C = 0.001mg C"
+;NW Mediterranean;Penilia avirostris;Clado;Evadne_sp;RR;ul O2/ug C/day;23,77;0,973;Atienza et al. (2006);(MSR*0.001*1.426*0.309)/0.001;;"1ul = 0.001 ml; ml O2-->mg O2 = 1.426; mg O2-->mg C = 0.309; 1ug C = 0.001mg C"
+;Meta-analysis;tunicates;Tun;tunicates;RR;mL O2/mg C/h;15;1-0.11*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;;Oikopleura dioica;Tun;tunicates;IR;ug C/idv/day;13;7,5;Gorsky et al. (2009);MSR*0.001/M;;"IR increases with food concentration and saturates at ~140ugC/L ; use of arbitrary ingestion estimate within the whole measured range(5-10ugC/idv/day)"
+;North Sea;Oikopleura dioica;Tun;tunicates;GR;per day;13;1;Paffenhöfer (1976);;;"source extracted from Sullivan & Kremer (2011)-->primary litterature source is not accessible ; use of maximum GR within range 0.57-1/day"
+0.144-0.288 (18°C)/day (Hansen, 1997);Laboratory;Mytilus edulis;Biv;Bivalvia;GR;ng AFDW/larvae/day;12;32,4;Sprung (1984a);MSR/318.5;;"1 larvae ~ 318.5 ng AFDW; 1ng AFDW~ 0.5 ng C ; 1ng = 10^(-6)mg"
+0.0744-0.192 (18°C)/day (Hansen, 1997);Laboratory;Mytilus edulis;Biv;Bivalvia;IR;cells/larvae/h;12;262,1666667;Sprung (1984b);(MSR*13*10^(-9)/M)*24;;"M: C-content of larvae in mg C; C-content of Isochrysis cells = 13*10^(-9) mg C/cell; 1 day=24h ; use of average IR of larvae of ~250um shell-length across fooc conc. of 1-40 cells/uL"
+;Laboratory;Mytilus edulis;Biv;Bivalvia;RR;nl O2/larvae/h;12;4.24*10^(-6)*250^(2.18);Sprung (1984c);((MSR*10^(-6)*1.426*0.309)/M)*24;;"average respiration rate of a 250um larvae based length-respiration relationship; M: C-content of larvae in mg C; 1nl = 10^(-6)ml; ml O2-->mg O2 = 1.426; mg O2-->mg C = 0.309; 1 day = 24 h"
+;;;Poly;Spionidae;RR;NA;NA;;;;;
+;;;Poly;Nereis;RR;NA;NA;;;;;
+;;;Poly;Magelona;RR;NA;NA;;;;;
+;;;Poly;Lanice;RR;NA;NA;;;;;
+;Isefjord (Denmark) + Laboratory;Spionidae: Polydora ciliata;Poly;Spionidae;IR;ug C/ug C/day;16;0,586;Almeda et al. (2009);;;
+;Isefjord (Denmark) + Laboratory;Spionidae: Polydora ciliata;Poly;Nereis;IR;ug C/ug C/day;16;0,586;Almeda et al. (2009);;;
+;Isefjord (Denmark) + Laboratory;Spionidae: Polydora ciliata;Poly;Magelona;IR;ug C/ug C/day;16;0,586;Almeda et al. (2009);;;
+;Isefjord (Denmark) + Laboratory;Spionidae: Polydora ciliata;Poly;Lanice;IR;ug C/ug C/day;16;0,586;Almeda et al. (2009);;;
+;Isefjord (Denmark) + Laboratory;Spionidae: Polydora ciliata;Poly;Spionidae;GR;ug C/ug C/day;16;0,190666667;Almeda et al. (2009);;;
+;Isefjord (Denmark) + Laboratory;Spionidae: Polydora ciliata;Poly;Nereis;GR;ug C/ug C/day;16;0,190666667;Almeda et al. (2009);;;
+;Isefjord (Denmark) + Laboratory;Spionidae: Polydora ciliata;Poly;Magelona;GR;ug C/ug C/day;16;0,190666667;Almeda et al. (2009);;;
+;Isefjord (Denmark) + Laboratory;Spionidae: Polydora ciliata;Poly;Lanice;GR;ug C/ug C/day;16;0,190666667;Almeda et al. (2009);;;
+;Buzzards Bay, Massachusetts+Laboratory;Thais haemastoma canaliculata+Crepidula fornicata;Gastr;gastropods;RR;ug C/ug C/day;19,5;0,200854875;Dobberteen & Pechenik (1987);;;"use of average RR of larvae =<500um shell-length across both species ; M: body mass in mg C; 1ug C = 0.001mg C "
+0.0288-0.1032 (12.5°C)/day (Hansen, 1997);Oresund near Helsingor+Laboratory;Philine aperta;Gastr;gastropods;IR;ug C/larvae/day;12,5;0,41;Hansen & Ockelmann (1991);MSR/(4.06*10^(-7)*244^(2.76));;"IR measured for larvae of 244um shell-length; M: C-content of larvae in ug C-->Mass calculated based on LWR for larvae of 244um shell-length; 1ug = 0.001mg"
+0.0888 (12.5°C)/day (Hansen, 1997);Oresund near Helsingor+Laboratory;Philine aperta;Gastr;gastropods;GR;ug C/larvae/day;12,5;0,34;Hansen & Ockelmann (1991);MSR/(4.06*10^(-7)*244^(2.76));;"GR of several days to 4 week old larvae ; M: C-content of larvae in ug C-->Mass calculated based on LWR for larvae of 244um shell-length; 1ug = 0.001mg"
+;Meta-analysis;ctenophores;Mlei;M.leidyi;RR;uL O2/mg C/h;15;0.76-0.40*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+20-60(10-15°C)L/g DW/day;Meta-analysis;ctenophores;Mlei;M.leidyi;CR;mL/mg C/h;15;2.09-0.62*log10(M);Kiørboe & Hirst (2014);10^(MSR)*10^(-6)*C_PREY*24;1;"C_PREY = food concentration in mg C/m3; 1ml = 10^(-6)m3 ; 1 day = 24h"
+0.02-0.4 (24-26°C)/day (Sullivan & Kremer, 2011);Meta-analysis;ctenophores;Mlei;M.leidyi;GR;mg C/mg C/h;15;(-2.41)-0.15*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1day = 24h
+;Meta-analysis;ctenophores;Ppil;P.pileus;RR;uL O2/mg C/h;15;0.76-0.40*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+1.8-147L (15°C)/idv/day (Sullivan & Kremer, 2011);Meta-analysis;ctenophores;Ppil;P.pileus;CR;mL/mg C/h;15;2.09-0.62*log10(M);Kiørboe & Hirst (2014);10^(MSR)*10^(-6)*C_PREY*24;1;"C_PREY = food concentration in mg C/m3; 1ml = 10^(-6)m3 ; 1 day = 24h"
+0.07 (15°C)/day (Sullivan & Kremer, 2011);Meta-analysis;ctenophores;Ppil;P.pileus;GR;mg C/mg C/h;15;(-2.41)-0.15*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1day = 24h
+;Meta-analysis;ctenophores;Bcu;B.cucumis;RR;uL O2/mg C/h;15;0.76-0.40*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;ctenophores;Bcu;B.cucumis;CR;mL/mg C/h;15;2.09-0.62*log10(M);Kiørboe & Hirst (2014);10^(MSR)*10^(-6)*C_PREY*24;1;"C_PREY = food concentration in mg C/m3; 1ml = 10^(-6)m3 ; 1 day = 24h"
+0.08-0.2 (18°C)/day (Sullivan & Kremer, 2011);Meta-analysis;ctenophores;Bcu;B.cucumis;GR;mg C/mg C/h;15;(-2.41)-0.15*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1day = 24h
+;Meta-analysis;cnidaria;Hydro;S.tubulosa;RR;uL O2/mg C/h;15;0.86-0.21*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;cnidaria;Hydro;R.octopunctata;RR;uL O2/mg C/h;15;0.86-0.21*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;cnidaria;Hydro;Nemopsis_sp;RR;uL O2/mg C/h;15;0.86-0.21*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;cnidaria;Hydro;Phialella_sp;RR;uL O2/mg C/h;15;0.86-0.21*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;cnidaria;Hydro;Eucheilota_sp;RR;uL O2/mg C/h;15;0.86-0.21*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;cnidaria;Hydro;Clytia_sp;RR;uL O2/mg C/h;15;0.86-0.21*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;cnidaria;Hydro;Bougainvillia_sp;RR;uL O2/mg C/h;15;0.86-0.21*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Meta-analysis;cnidaria;Hydro;O.geniculata;RR;uL O2/mg C/h;15;0.86-0.21*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+0.06 (4°C)L/idv/day (Sullivan & Kremer, 2011);Meta-analysis;cnidaria;Hydro;S.tubulosa;CR;mL/mg C/h;15;2.73-0.12*log10(M);Kiørboe & Hirst (2014);10^(MSR)*10^(-6)*C_PREY*24;1;"C_PREY = food concentration in mg C/m3; 1ml = 10^(-6)m3 ; 1 day = 24h"
+0.3 (11°C)L/idv/day (Sullivan & Kremer, 2011);Meta-analysis;cnidaria;Hydro;R.octopunctata;CR;mL/mg C/h;15;2.73-0.12*log10(M);Kiørboe & Hirst (2014);10^(MSR)*10^(-6)*C_PREY*24;1;"C_PREY = food concentration in mg C/m3; 1ml = 10^(-6)m3 ; 1 day = 24h"
+;Meta-analysis;cnidaria;Hydro;Nemopsis_sp;CR;mL/mg C/h;15;2.73-0.12*log10(M);Kiørboe & Hirst (2014);10^(MSR)*10^(-6)*C_PREY*24;1;"C_PREY = food concentration in mg C/m3; 1ml = 10^(-6)m3 ; 1 day = 24h"
+;Meta-analysis;cnidaria;Hydro;Phialella_sp;CR;mL/mg C/h;15;2.73-0.12*log10(M);Kiørboe & Hirst (2014);10^(MSR)*10^(-6)*C_PREY*24;1;"C_PREY = food concentration in mg C/m3; 1ml = 10^(-6)m3 ; 1 day = 24h"
+;Meta-analysis;cnidaria;Hydro;Eucheilota_sp;CR;mL/mg C/h;15;2.73-0.12*log10(M);Kiørboe & Hirst (2014);10^(MSR)*10^(-6)*C_PREY*24;1;"C_PREY = food concentration in mg C/m3; 1ml = 10^(-6)m3 ; 1 day = 24h"
+;Meta-analysis;cnidaria;Hydro;Clytia_sp;CR;mL/mg C/h;15;2.73-0.12*log10(M);Kiørboe & Hirst (2014);10^(MSR)*10^(-6)*C_PREY*24;1;"C_PREY = food concentration in mg C/m3; 1ml = 10^(-6)m3 ; 1 day = 24h"
+;Meta-analysis;cnidaria;Hydro;Bougainvillia_sp;CR;mL/mg C/h;15;2.73-0.12*log10(M);Kiørboe & Hirst (2014);10^(MSR)*10^(-6)*C_PREY*24;1;"C_PREY = food concentration in mg C/m3; 1ml = 10^(-6)m3 ; 1 day = 24h"
+;Meta-analysis;cnidaria;Hydro;O.geniculata;CR;mL/mg C/h;15;2.73-0.12*log10(M);Kiørboe & Hirst (2014);10^(MSR)*10^(-6)*C_PREY*24;1;"C_PREY = food concentration in mg C/m3; 1ml = 10^(-6)m3 ; 1 day = 24h"
+0.04-0.33 (12°C)/day (Sullivan & Kremer, 2011);Meta-analysis;cnidaria;Hydro;S.tubulosa;GR;mg C/mg C/h;15;(-2.41)-0.15*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1day = 24h
+;Meta-analysis;cnidaria;Hydro;R.octopunctata;GR;mg C/mg C/h;15;(-2.41)-0.15*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1day = 24h
+;Meta-analysis;cnidaria;Hydro;Nemopsis_sp;GR;mg C/mg C/h;15;(-2.41)-0.15*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1day = 24h
+;Meta-analysis;cnidaria;Hydro;Phialella_sp;GR;mg C/mg C/h;15;(-2.41)-0.15*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1day = 24h
+;Meta-analysis;cnidaria;Hydro;Eucheilota_sp;GR;mg C/mg C/h;15;(-2.41)-0.15*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1day = 24h
+;Meta-analysis;cnidaria;Hydro;Clytia_sp;GR;mg C/mg C/h;15;(-2.41)-0.15*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1day = 24h
+;Meta-analysis;cnidaria;Hydro;Bougainvillia_sp;GR;mg C/mg C/h;15;(-2.41)-0.15*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1day = 24h
+;Meta-analysis;cnidaria;Hydro;O.geniculata;GR;mg C/mg C/h;15;(-2.41)-0.15*log10(M);Kiørboe & Hirst (2014);10^(MSR)*24;;1day = 24h
+R/B=0.0164 (E-ratios AG Ökosystemanalyse);Meta-analysis;pisces;Her;herring;RR;uL O2/mg C/h;15;0.96-0.22*log10(M);Kiørboe & Hirst (2014);10^(MSR)*0.001*1.426*0.309*24;;"1ul = 0.001 ml ; ml O2-->mg O2 = 1.426;  mg O2-->mg C = 0.309; 1 day = 24 h"
+;Scotland+Laboratory;herring;Her;herring;IR;per day;14,5;0,11;De Silva & Balbontin (1974);;;range of average consumptions of fish (7-19g FW) fed to satiation: 10-12% of body weight, fish consumed less (<4.4% of body weight) at 6.5%
+;Scotland+Laboratory;herring;Her;herring;GR;g FW/week;14,5;0.58;De Silva & Balbontin (1974);(MSR/7)*0.17*0.58;;"range of weight gain of fish (7-19g FW) fed to satiation ; assuming ash-free DW/FW=0.17 & C/ash-free DW=0.58 (Remmert, 1978)"

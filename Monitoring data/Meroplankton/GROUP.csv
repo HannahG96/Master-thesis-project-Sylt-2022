@@ -1,0 +1,30 @@
+﻿id;species;column;NAs;Group
+1;Bivalvia larvae;Bivalvia;17;bivalve larvae
+2;Obelia;Obelia;17;OUT
+3;Ctenophora;Ctenophora;17;OUT
+4;Cnidaria indet.;Cnidaria_indet.;17;OUT
+5;Spionidae larvae;Spionidae;17;polychaete larvae
+6;Bipinnaria larvae;Bipinnaria;17;echinoderm larvae
+7;Echinopluteus larvae;Echinopluteus;17;echinoderm larvae
+8;Scoloplos larvae;Scoloplos;17;polychaete larvae
+9;Nereis larvae;Nereis;19;polychaete larvae
+10;Gastropoda larvae;Gastropoda;17;gastropod larvae
+11;Crepidula larvae;Crepidula;17;gastropod larvae
+12;Cypris larvae;Cypris;17;cyprid
+13;Carcinus Zoea larvae;Carcinus_Zoea;17;OUT
+14;Carcinus Megalopa larvae;Carcinus_Megalopa;18;OUT
+15;Pandalus Megalopa;Pandalus;973;OUT
+16;Crangon Megalopa;Crangon;1452;OUT
+17;Pagurus larvae;Pagurus;17;OUT
+18;Lanice larvae;Lanice;17;polychaete larvae
+19;Magelona larvae;Magelona;17;polychaete larvae
+20;Appendicularia;Appendicularia;17;tunicate
+21;Fritillaria;Fritillaria;17;tunicate
+22;Podon;Podon;17;cladoceran larvae
+23;Evadne;Evadne;17;cladoceran larvae
+24;Chaetognatha;Chaetognatha;17;OUT
+25;Actiniaria larvae;Actiniaria;33;OUT
+26;Gammarus;Gammarus;1583;OUT
+27;Mysidae;Mysidae;1583;OUT
+28;Palaemon;Palaemon;1558;OUT
+29;Beroe;Beroe;1549;OUT

@@ -1,0 +1,45 @@
+﻿Studied taxon;Compartment;Rate;Q10;Source;Comment
+planktonic primary production;Dia;GPP;1,93;Tillmann et al. (2000);"Study system: Northfrisian Wadden Sea ; value is close to the typical Q10 of ~2 (eg. Davison, 1991)"
+free-living bacteria;Bac;PR;2;Baretta & Ruardij (1988);
+free-living bacteria;Bac;IR;2;Baretta & Ruardij (1988);
+free-living bacteria;Bac;RR;2;Baretta & Ruardij (1988);"value is based on modelling study ; source was extracted from de la Vega et al. (2018)"
+NA;Her;PR;2,55;Jacob & Woodward (2012);
+NA;Her;IR;2,55;Jacob & Woodward (2012);
+NA;Her;RR;2,55;Jacob & Woodward (2012);source was extracted from de la Vega et al. (2018)-->reference to be checked
+flagellates;Nsci;PR;2,5;Hansen et al. (1997);"values extracted from litterature ; use of average Q10 measured for given taxonomic group"
+flagellates;Nsci;IR;2,8;Hansen et al. (1997);"values extracted from litterature ; use of average Q10 measured for given taxonomic group"
+zooplankton;Nsci;CR;2,8;Hansen et al. (1997);lack of Nsci-specific studies of clearance Q10 -->use of average Q10=2.8 from Hansen (1997) which has been assumed as a good general Q10 estimate across various zooplankton functional groups
+zooplankton;Nsci;RR;2,8;Hansen et al. (1997);lack of Nsci-specific studies of respiratory Q10 -->use of average Q10=2.8 from Hansen (1997) which has been assumed as a good general Q10 estimate across various zooplankton functional groups
+ciliates;Cil;PR;2,44;Hansen et al. (1997);"values extracted from litterature ; use of average Q10 measured for given taxonomic group"
+ciliates;Cil;IR;2,8;Hansen et al. (1997);"values extracted from litterature ; use of average Q10 measured for given taxonomic group"
+ciliates;Cil;RR;2,6;Hansen et al. (1997);"values extracted from litterature ; use of average Q10 measured for given taxonomic group"
+copepods;Cop;PR;3;Hansen et al. (1997);"values extracted from litterature ; use of average Q10 measured for given taxonomic group"
+copepods;Cop;IR;3,15;Hansen et al. (1997);"values extracted from litterature ; use of average Q10 measured for given taxonomic group"
+copepods;Cop;RR;2,4;Hansen et al. (1997);"values extracted from litterature ; use of average Q10 measured for given taxonomic group"
+meroplankton larvae;Poly;PR;1,9;Hansen et al. (1997);"values extracted from litterature ; use of average Q10 measured for given taxonomic group"
+meroplankton larvae;Biv;PR;1,9;Hansen et al. (1997);
+meroplankton larvae;Gastr;PR;1,9;Hansen et al. (1997);
+meroplankton larvae;Poly;IR;3,08;Hansen et al. (1997);
+meroplankton larvae;Biv;IR;3,08;Hansen et al. (1997);
+meroplankton larvae;Gastr;IR;3,08;Hansen et al. (1997);"values extracted from litterature ; use of average Q10 measured for given taxonomic group"
+meroplankton larvae;Poly;RR;;;no respiratory rates available for being adjusted
+meroplankton larvae;Gastr;RR;3,1;Hansen et al. (1997);"values extracted from litterature ; use of average Q10 measured for given taxonomic group"
+Mytilus edulis;Biv;RR;2,35;Sprung (1984c);"use of average Q10 values of larvae with 250um shell-length: 2,4 (6-12°C) ; 2,3 (12-18°C)"
+zooplankton;Clado;PR;2,8;;
+zooplankton;Clado;IR;2,8;;
+zooplankton;Clado;RR;2,8;Hansen et al. (1997);lack of cladoceran-specific studies -->use of average Q10=2.8 from Hansen (1997) which has been assumed as a good general Q10 estimate across various zooplankton functional groups
+Oikopleura dioica;Tun;PR;2,3;Lombard et al. (2005);
+Oikopleura dioica;Tun;IR;2,3;Lombard et al. (2005);
+Oikopleura dioica;Tun;RR;2,3;Lombard et al. (2005);can Q10 be used to temperature-adjust IR & PR??
+Beroe gracilis, Beroe ovata;Bcu;PR;2,865;Ikeda (2014);
+Beroe gracilis, Beroe ovata;Bcu;CR;2,865;Ikeda (2014);
+Beroe gracilis, Beroe ovata;Bcu;RR;2,865;Ikeda (2014);"average Q10 value calculated using Q10 values of Beroe gracilis & Beroe ovata ; can Q10 be used to temperature-adjust CR & PR??"
+Pleurobrachia pileus;Ppil;PR;2,72;Ikeda (2014);
+Pleurobrachia pileus;Ppil;CR;2,72;Ikeda (2014);
+Pleurobrachia pileus;Ppil;RR;2,72;Ikeda (2014);can Q10 be used to temperature-adjust CR & PR??
+Mnemiopsis leidyi;Mlei;PR;3,67;Ikeda (2014);
+Mnemiopsis leidyi;Mlei;CR;3,67;Ikeda (2014);
+Mnemiopsis leidyi;Mlei;RR;3,67;Ikeda (2014);can Q10 be used to temperature-adjust CR & PR??
+hydromedusae;Hydro;PR;2,6;Ikeda (2014);
+hydromedusae;Hydro;CR;2,6;Ikeda (2014);
+hydromedusae;Hydro;RR;2,6;Ikeda (2014);can Q10 be used to temperature-adjust CR & PR??

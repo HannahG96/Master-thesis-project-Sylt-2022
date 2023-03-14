@@ -1,0 +1,40 @@
+/* DATA DESCRIPTION:
+Citation:	Asmus, Ragnhild; Asmus, Harald (2016): Phytoplankton primary production at Koenigshafen, List/Sylt, in 2012. Alfred Wegener Institute - Wadden Sea Station Sylt, PANGAEA, https://doi.org/10.1594/PANGAEA.860611
+Project(s):	Long-term Ecological Research at AWI (LTER) (URI: http://www.awi.de/en/science/biosciences/functional-ecology.html)
+Coverage:	LATITUDE: 55.033100 * LONGITUDE: 8.438100
+	DATE/TIME START: 2012-01-20T00:00:00 * DATE/TIME END: 2012-12-11T00:00:00
+	MINIMUM DEPTH, water: 0 m * MAXIMUM DEPTH, water: 0 m
+Event(s):	List_Koenigshafen * LATITUDE: 55.033100 * LONGITUDE: 8.438100 * LOCATION: German Bight Wadden Sea * CAMPAIGN: Long-term time series Sylt * METHOD/DEVICE: Multiple investigations (MULT)
+Parameter(s):	DATE/TIME (Date/Time) * GEOCODE * PI: Asmus, Ragnhild (https://orcid.org/0000-0003-3300-6065, ragnhild.asmus@awi.de, http://www.awi.de/en/about-us/organisation/staff/ragnhild-asmus.html)
+	DEPTH, water [m] (Depth water) * GEOCODE * PI: Asmus, Ragnhild (https://orcid.org/0000-0003-3300-6065, ragnhild.asmus@awi.de, http://www.awi.de/en/about-us/organisation/staff/ragnhild-asmus.html)
+	Temperature, water [°C] (Temp) * PI: Asmus, Ragnhild (https://orcid.org/0000-0003-3300-6065, ragnhild.asmus@awi.de, http://www.awi.de/en/about-us/organisation/staff/ragnhild-asmus.html)
+	Chlorophyll total [mg/m**3] (Chl tot) * PI: Asmus, Ragnhild (https://orcid.org/0000-0003-3300-6065, ragnhild.asmus@awi.de, http://www.awi.de/en/about-us/organisation/staff/ragnhild-asmus.html)
+	Biomass as carbon per volume [µg/l] (Biom C) * PI: Asmus, Ragnhild (https://orcid.org/0000-0003-3300-6065, ragnhild.asmus@awi.de, http://www.awi.de/en/about-us/organisation/staff/ragnhild-asmus.html)
+	Net primary production of oxygen [µmol/l/h] (NPP O2) * PI: Asmus, Ragnhild (https://orcid.org/0000-0003-3300-6065, ragnhild.asmus@awi.de, http://www.awi.de/en/about-us/organisation/staff/ragnhild-asmus.html)
+	Respiration rate, oxygen [µmol/l/h] (Resp O2) * PI: Asmus, Ragnhild (https://orcid.org/0000-0003-3300-6065, ragnhild.asmus@awi.de, http://www.awi.de/en/about-us/organisation/staff/ragnhild-asmus.html)
+	Gross primary production of oxygen [µmol/l/h] (GPP O2) * PI: Asmus, Ragnhild (https://orcid.org/0000-0003-3300-6065, ragnhild.asmus@awi.de, http://www.awi.de/en/about-us/organisation/staff/ragnhild-asmus.html)
+	Gross primary production of carbon [mg/l/h] (GPP C) * PI: Asmus, Ragnhild (https://orcid.org/0000-0003-3300-6065, ragnhild.asmus@awi.de, http://www.awi.de/en/about-us/organisation/staff/ragnhild-asmus.html)
+	Net production of Carbon, organic, dissolved + particulate [mg/l/h] (NP DOC+POC) * PI: Asmus, Ragnhild (https://orcid.org/0000-0003-3300-6065, ragnhild.asmus@awi.de, http://www.awi.de/en/about-us/organisation/staff/ragnhild-asmus.html)
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0)
+Size:	132 data points
+*/
+Date/Time	Depth water [m]	Temp [°C]	Chl tot [mg/m**3]	Biom C [µg/l]	NPP O2 [µmol/l/h]	Resp O2 [µmol/l/h]	GPP O2 [µmol/l/h]	GPP C [mg/l/h]	NP DOC+POC [mg/l/h]
+2012-01-20	0	4.40	9.70	484.8	-0.6125	-0.5688	-0.0406	-0.0004	-0.0063
+2012-02-19	0	0.20	13.26	662.9	0.7688	0.0094	0.7594	0.0078	0.0079
+2012-03-05	0	2.40	20.85	1042.3	2.0188	0.0000	2.0188	0.0207	0.0207
+2012-03-19	0	4.30	13.90	695.2	1.4375	-0.4781	1.9156	0.0196	0.0147
+2012-04-03	0	4.60	41.36	2068.1	7.6188	-2.2969	9.9156	0.1015	0.0780
+2012-05-02	0	12.20	22.12	1106.2	3.9031	-2.9375	6.8406	0.0700	0.0400
+2012-05-16	0	8.50	25.36	1268.2	2.2969	-0.6438	2.9406	0.0301	0.0235
+2012-06-01	0	11.20	20.72	1036.0	2.8031	-1.4750	4.2781	0.0438	0.0287
+2012-06-16	0	15.20			2.6469	0.0000	2.6469	0.0271	0.0271
+2012-06-29	0	16.00			3.6938	-0.6875	4.3844	0.0449	0.0378
+2012-07-14	0	15.80			1.3906	-0.1906	1.5781	0.0162	0.0142
+2012-07-30	0	16.70			2.0063	-0.5125	2.5156	0.0258	0.0205
+2012-08-13	0	16.50			5.9156	-1.1344	7.0500	0.0722	0.0606
+2012-08-27	0	16.80			1.4281	-0.4656	1.8938	0.0194	0.0146
+2012-09-26	0	12.20			1.4313	-0.5094	1.9406	0.0199	0.0147
+2012-10-12	0	8.70	37.66	1882.9	3.7156	-0.6594	4.3750	0.0448	0.0381
+2012-11-11	0	8.20			1.4281	-0.7250	2.1500	0.0220	0.0146
+2012-11-25	0	8.00			-0.1563	-0.2313	0.0750	0.0008	-0.0016
+2012-12-11	0	0.00			0.2156	-1.9188	2.1313	0.0218	0.0022

@@ -1,0 +1,52 @@
+﻿id;species;genus;column;NAs;Group
+1;Centropages hamatus, nauplii ;Centropages;C._hamatus_nau;0;copepod nauplii
+2;Temora longicornis, nauplii ;Temora;T._longicornis_naup;0;copepod nauplii
+3;Acartia sp., nauplii ;Acartia;Acartia_sp._nau;1;copepod nauplii
+4;Oithona sp., nauplii ;Oithona;Oithona_sp._nau;0;copepod nauplii
+5;Paracalanus sp., nauplii ;Paracalanus;Paracalanus_sp._nau;0;copepod nauplii
+6;Balanidae, nauplii ;Balanidae;Balanidae_nau;0;OUT
+7;Cypris, larvae ;Cypris;Cypris_larv;0;OUT
+8;Centropages hamatus, copepodites ;Centropages;C._hamatus_c;0;calanoid copepodites
+9;Temora longicornis, copepodites ;Temora;T._longicornis_c;0;calanoid copepodites
+10;Acartia sp., copepodites ;Acartia;Acartia_sp._c;0;calanoid copepodites
+11;Oithona sp., copepodites ;Oithona;Oithona_sp._c;0;cyclopoid copepodites
+12;Paracalanus sp., copepodites ;Paracalanus;Paracalanus_sp._c;0;calanoid copepodites
+13;Centropages hamatus, male ;Centropages;C._hamatus_m;1;calanoid copepod
+14;Centropages hamatus, female ;Centropages;C._hamatus_f;0;calanoid copepod
+15;Temora longicornis, male ;Temora;T._longicornis_m;0;calanoid copepod
+16;Temora longicornis, female ;Temora;T._longicornis_f;0;calanoid copepod
+17;Acartia sp., male ;Acartia;Acartia_sp._m;0;calanoid copepod
+18;Acartia sp., female ;Acartia;Acartia_sp._f;0;calanoid copepod
+19;Oithona sp., male ;Oithona;Oithona_sp._m;0;cyclopoid copepod
+20;Oithona sp., female ;Oithona;Oithona_sp._f;0;cyclopoid copepod
+21;Paracalanus parvus, male ;Paracalanus;P._parvus_m;0;calanoid copepod
+22;Paracalanus parvus, female ;Paracalanus;P._parvus_f;0;calanoid copepod
+23;Pseudocalanus elongatus, male ;Pseudocalanus;P._elongatus_m;0;calanoid copepod
+24;Pseudocalanus elongatus, female ;Pseudocalanus;P._elongatus_f;1;calanoid copepod
+25;Harpacticoida ;Harpacticoida;Harpacticoida;0;harpacticoid copepod
+26;Noctiluca scintillans ;Noctiluca;N._scintillans;0;OUT
+27;Oikopleura dioica ;Oikopleura;O._dioica;0;tunicate
+28;Bivalvia, larvae ;Bivalvia;Bivalvia_larv;0;OUT
+29;Gastropoda, larvae ;Gastropoda;Gastrop_larv;0;OUT
+30;Trochophora, larvae ;Trochophora;Trochophora_larv;0;OUT
+31;Spionida, metatrochophora ;Spionida;Spionida_metatro;0;OUT
+32;Metatrochophora, other ;Metatrochophora;Metatrochophora_oth;1;OUT
+33;Spionida, nektochaeta ;Spionida;Spionida_nektoch;0;OUT
+34;Nektochaeta, other ;Nektochaeta;Nektochaeta_oth;0;OUT
+35;Lanice conchilega, larvae ;Lanice;L._conchilega_larv;0;OUT
+36;Magelona papillicornis ;Magelona;M._papillicornis;0;OUT
+37;Ophioplutei ;Ophioplutei;Ophioplutei;0;OUT
+38;Echinoplutei ;Echinoplutei;Echinoplutei;0;OUT
+39;Bipinnaria, larvae ;Bipinnaria;Bipinnaria_larv;0;OUT
+40;Membranipora, larvae ;Membranipora;Membranipora_larv;1;OUT
+41;Rotatoria ;Rotatoria;Rotatoria;0;rotifer
+42;Turbellaria ;Turbellaria;Turbellaria;0;OUT
+43;Sagitta sp. ;Sagitta;Sagitta_sp.;0;OUT
+44;Podon sp. ;Podon;Podon_sp.;0;cladoceran
+45;Evadne sp. ;Evadne;Evadne_sp.;0;cladoceran
+46;Zoea, larvae ;Zoea;Zoea_larv;0;OUT
+47;Decapoda, megalopa ;Decapoda;Megalopa;0;OUT
+48;Rathkea oktopunctata ;Rathkea;R._oktopunctata;0;OUT
+49;Sarsia tubulosa ;Sarsia;S._tubulosa;0;OUT
+50;Pleurobrachia pileus ;Pleurobrachia;P._pileus;1;OUT
+51;Obelia geniculata ;Obelia;O._geniculata;1;OUT

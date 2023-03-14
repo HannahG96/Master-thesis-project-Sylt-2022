@@ -1,0 +1,156 @@
+/* DATA DESCRIPTION:
+Citation:	Martens, Peter (2011): Abundance of zooplankton at times series station List Reede in 2007. Alfred Wegener Institute - Wadden Sea Station Sylt, PANGAEA, https://doi.org/10.1594/PANGAEA.756061
+Project(s):	Coastal Ecology @ AWI (AWI_Coast) (URI: http://www.awi.de/forschung/biowissenschaft/oekologie-der-kuesten.html)
+	Long-term Ecological Research at AWI (LTER) (URI: http://www.awi.de/en/science/biosciences/functional-ecology.html)
+Coverage:	LATITUDE: 55.030000 * LONGITUDE: 8.460000
+	DATE/TIME START: 2007-01-04T00:00:00 * DATE/TIME END: 2007-12-31T00:00:00
+	MINIMUM DEPTH, water: 0 m * MAXIMUM DEPTH, water: 0 m
+Event(s):	List_Reede (Lister_Ley) * LATITUDE: 55.030000 * LONGITUDE: 8.460000 * LOCATION: German Bight Wadden Sea * CAMPAIGN: Long-term time series Sylt * METHOD/DEVICE: Multiple investigations (MULT)
+Parameter(s):	DATE/TIME (Date/Time) * GEOCODE
+	DEPTH, water [m] (Depth water) * GEOCODE
+	Centropages hamatus, nauplii [#/m**3] (C. hamatus nau) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Temora longicornis, nauplii [#/m**3] (T. longicornis naup) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Acartia sp., nauplii [#/m**3] (Acartia sp. nau) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Oithona sp., nauplii [#/m**3] (Oithona sp. nau) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Paracalanus sp., nauplii [#/m**3] (Paracalanus sp. nau) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20 * COMMENT: including Pseudo-Paracalanus sp.
+	Balanidae, nauplii [#/m**3] (Balanidae nau) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Cypris, larvae [#/m**3] (Cypris larv) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Centropages hamatus, copepodites [#/m**3] (C. hamatus c) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Temora longicornis, copepodites [#/m**3] (T. longicornis c) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Acartia sp., copepodites [#/m**3] (Acartia sp. c) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Oithona sp., copepodites [#/m**3] (Oithona sp. c) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Paracalanus sp., copepodites [#/m**3] (Paracalanus sp. c) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20 * COMMENT: including Pseudo-Paracalanus sp.
+	Centropages hamatus, male [#/m**3] (C. hamatus m) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Centropages hamatus, female [#/m**3] (C. hamatus f) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Temora longicornis, male [#/m**3] (T. longicornis m) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Temora longicornis, female [#/m**3] (T. longicornis f) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Acartia sp., male [#/m**3] (Acartia sp. m) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Acartia sp., female [#/m**3] (Acartia sp. f) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Oithona sp., male [#/m**3] (Oithona sp. m) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Oithona sp., female [#/m**3] (Oithona sp. f) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Paracalanus parvus, male [#/m**3] (P. parvus m) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Paracalanus parvus, female [#/m**3] (P. parvus f) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Pseudocalanus elongatus, male [#/m**3] (P. elongatus m) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Pseudocalanus elongatus, female [#/m**3] (P. elongatus f) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Harpacticoida [#/m**3] (Harpacticoida) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Noctiluca scintillans [#/m**3] (N. scintillans) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Oikopleura dioica [#/m**3] (O. dioica) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Bivalvia, larvae [#/m**3] (Bivalvia larv) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Gastropoda, larvae [#/m**3] (Gastrop larv) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Trochophora, larvae [#/m**3] (Trochophora larv) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Spionida, metatrochophora [#/m**3] (Spionida metatro) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Metatrochophora, other [#/m**3] (Metatrochophora oth) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Spionida, nektochaeta [#/m**3] (Spionida nektoch) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Nektochaeta, other [#/m**3] (Nektochaeta oth) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Lanice conchilega, larvae [#/m**3] (L. conchilega larv) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Magelona papillicornis [#/m**3] (M. papillicornis) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Ophioplutei [#/m**3] (Ophioplutei) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Echinoplutei [#/m**3] (Echinoplutei) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Bipinnaria, larvae [#/m**3] (Bipinnaria larv) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Membranipora, larvae [#/m**3] (Membranipora larv) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Rotatoria [#/m**3] (Rotatoria) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Turbellaria [#/m**3] (Turbellaria) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Sagitta sp. [#/m**3] (Sagitta sp.) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Podon sp. [#/m**3] (Podon sp.) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Evadne sp. [#/m**3] (Evadne sp.) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Zoea, larvae [#/m**3] (Zoea larv) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Decapoda, megalopa [#/m**3] (Megalopa) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Rathkea oktopunctata [#/m**3] (R. oktopunctata) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Sarsia tubulosa [#/m**3] (S. tubulosa) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Pleurobrachia pileus [#/m**3] (P. pileus) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+	Obelia geniculata [#/m**3] (O. geniculata) * PI: Martens, Peter * METHOD/DEVICE: Counting, Stereo Microscope x20
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0)
+Size:	4640 data points
+*/
+Date/Time	Depth water [m]	C. hamatus nau [#/m**3]	T. longicornis naup [#/m**3]	Acartia sp. nau [#/m**3]	Oithona sp. nau [#/m**3]	Paracalanus sp. nau [#/m**3]	Balanidae nau [#/m**3]	Cypris larv [#/m**3]	C. hamatus c [#/m**3]	T. longicornis c [#/m**3]	Acartia sp. c [#/m**3]	Oithona sp. c [#/m**3]	Paracalanus sp. c [#/m**3]	C. hamatus m [#/m**3]	C. hamatus f [#/m**3]	T. longicornis m [#/m**3]	T. longicornis f [#/m**3]	Acartia sp. m [#/m**3]	Acartia sp. f [#/m**3]	Oithona sp. m [#/m**3]	Oithona sp. f [#/m**3]	P. parvus m [#/m**3]	P. parvus f [#/m**3]	P. elongatus m [#/m**3]	P. elongatus f [#/m**3]	Harpacticoida [#/m**3]	N. scintillans [#/m**3]	O. dioica [#/m**3]	Bivalvia larv [#/m**3]	Gastrop larv [#/m**3]	Trochophora larv [#/m**3]	Spionida metatro [#/m**3]	Metatrochophora oth [#/m**3]	Spionida nektoch [#/m**3]	Nektochaeta oth [#/m**3]	L. conchilega larv [#/m**3]	M. papillicornis [#/m**3]	Ophioplutei [#/m**3]	Echinoplutei [#/m**3]	Bipinnaria larv [#/m**3]	Membranipora larv [#/m**3]	Rotatoria [#/m**3]	Turbellaria [#/m**3]	Sagitta sp. [#/m**3]	Podon sp. [#/m**3]	Evadne sp. [#/m**3]	Zoea larv [#/m**3]	Megalopa [#/m**3]	R. oktopunctata [#/m**3]	S. tubulosa [#/m**3]	P. pileus [#/m**3]	O. geniculata [#/m**3]
+2007-01-04	0	0	0	343	114	0	0	0	0	57	114	229	0	0	0	0	0	0	0	0	0	0	0	0	0	114	0	0	0	57	0	114	0	0	0	0	0	0	0	0	114	0	0	0	0	0	0	0	0	0	0	0
+2007-01-11	0	0	57	57	0	57	0	0	0	0	57	114	0	0	0	0	0	0	0	0	114	0	0	0	0	229	0	0	0	0	0	0	0	0	0	0	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0	0
+2007-01-15	0	0	57	229	57	57	0	0	0	114	343	114	0	0	0	0	0	114	0	57	171	0	0	0	0	229	57	0	0	0	0	57	0	0	0	0	0	0	0	0	171	0	0	0	0	0	0	0	0	0	0	0
+2007-01-18	0	0	114	286	114	0	0	0	0	57	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	114	0	0	0	0	0	114	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-01-23	0	0	57	343	268	0	114	0	0	0	114	0	0	0	0	0	0	0	0	0	57	57	0	0	0	57	171	0	57	0	0	400	0	0	0	0	0	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0
+2007-01-25	0	0	171	171	114	0	57	0	0	0	57	0	0	0	0	0	0	0	0	0	57	0	0	0	0	57	57	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-01-29	0	0	114	457	114	0	0	0	0	0	286	57	0	0	0	0	0	0	0	0	114	0	0	0	0	171	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-02-01	0	0	114	1314	114	0	57	0	0	0	571	0	0	0	0	0	0	0	571	0	400	0	0	0	0	171	0	0	0	0	0	400	0	0	0	0	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0	0
+2007-02-05	0	0	57	400	114	0	0	0	0	0	457	57	0		0	57	57	0	0	0	114	0	0	0	0	57	0	0	0	0	171	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-02-07	0	57	114	1886	0	0	114	0	0	0	914	400	0	0	0	0	0	0	57	57	57	0	0	0	0	229	114	0	57	0	0	1257	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-02-13	0	0	57	1543	0	57	57	0	0	57	171	114	0	0	0	0	0	0	0	0	57	0	0	0	0	57	57	0	171	0	0	0	0	0	0	0	0	0	0	57	57	0	0	0	0	0	0	0	0	0	0	0
+2007-02-15	0	0	0	243657	0	0	0	0	0	0	457	0	0	0	0	0	0	0	457	0	0	0	0	0	0	0	2286	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-02-19	0	0	57	2914	0	0	229	0	0	114	1086	57	0	0	0	0	0	229	171	0	0	0	0	0	0	171	57	0	0	0	0	229	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-02-22	0	0	114	1029	114	0	343	0	0	57	229	114	0	0	0	0	0	0	0	0	57	0	0	0	0	0	57	0	57	0	0	400	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-02-26	0	114	229	857	0	0	400	0	0	114	743	229	57	0	0	0	0	0	57	0	57	0	0	0	0	0	57	0	57	0	286	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-03-01	0	0	400	1257	0	57	343	0	0	114	686	171	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	114	457	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-03-05	0	57	114	514	57	0	1771	0	0	343	1543	57	0	57	0	0	0	229	400	0	114	0	0	0	57	114	0	0	0	0	57	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-03-08	0	0	171	457	0	0	1257	0	0	57	800	229	0	0	0	57	0	0	343	0	0	0	0	0	0	0	0	0	0	0	114	171	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-03-12	0	0	0	457	0	0	1371	0	0	457	229	229	57	0	0	114	0	0	57	0	114	0	0	57	0	0	57	0	114	0	57	457	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-03-15	0	0	0	1257	0	0	2457	0	0	0	1200	0	0	0	0	0	57	0	57	0	0	0	0	0	57	57	114	0	0	0	114	343	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-03-19	0	0	114	457	57	0	1314	0	0	0	971	57	114	0	0	57	57	114	400	0	0	57	114	0	0	57	0	0	0	0	0	171	0	0	0	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0	0	0
+2007-03-22	0	0	114	686	57	57	2229	0	0	286	280	0	57	0	0	114	0	629	629	0	57	0	0	57	0	286	0	0	0	0	0	800	0	229	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	57	0	0
+2007-03-26	0	0	0	1314	57	0	857	0	0	114	2686	229	114	0	0	114	57	229	7430	171	0	57	0	0	57	0	57	0	57	0	3657	0	400	0	0	0	0	0	0	171	0	0	0	0	0	0	0	0	0	0	0	0
+2007-03-28	0	0	0	1143	0	114	457	0	0	286	2571	57	171	0	0	0	171	1029	1486	0	57	0	57	0	57	171	57	0	0	0	0	343	117	400	0	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0	0	0
+2007-04-05	0	0	229	914	57	57	2857	0	0	400	229	457	0	0	0	57	171	0	57	0	114	0	57	0	57	114	0	0	0	0	0	229	0	0	0	0	0	0	0	57	0	0	0	0	0	0	0	0	57	0	0	0
+2007-04-10	0	0	914	800	571	114	1600	0	0	229	229	229	114	0	114	114	0	0	0	0	114	114	0	0	0	0	0	343	0	0	0	114	0	343	114	0	0	0	0	0	0	0	0	0	0	0	0	0	114	0	0	0
+2007-04-12	0	114	800	743	1143	514	743	0	0	171	400	57	57	0	0	0	286	0	114	0	171	0	0	0	0	0	0	171	0	0	0	57	0	114	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-04-16	0	0	571	1029	686	571	2857	1600	0	114	1029	229	229	0	0	114	114	229	343	0	114	0	114	0	229	457	0	229	0	0	0	686	0	343	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	229	0	0
+2007-04-19	0	0	800	229	0	800	1143	0	0	571	571	114	0	0	0	0	0	0	0	0	114	0	0	0	0	114	0	571	229	114	0	229	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	229	0	229	0
+2007-04-26	0	0	57	0	0	0	686	114	0	114	171	0	0	0	0	57	57	171	114	0	0	0	0	0	0	0	0	114	0	0	114	400	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-04-30	0	0	114	571	0	114	1371	343	0	457	343	0	114	0	0	0	0	0	0	0	0	0	0	0	0	12914	0	114	114	229	0	3200	0	800	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-05-03	0	0	0	457	0	0	2914	57	0	343	229	0	57	0	0	0	114	114	57	0	0	0	0	0	0	40	286	857	286	686	57	1029	0	457	0	343	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0	0
+2007-05-07	0	0	1029	571	114	0	2400	0	0	114	686	0	114	0	0	0	0	0	0	0	0	0	0	0	0	571	2971	2057	0	1714	0	1371	114	0	0	343	0	0	114	114	114	0	0	0	0	0	229	0	0	0	0	114
+2007-05-10	0	0	343	1143	0	114	3200	0	0	0	686	0	0	0	0	0	0	0	0	0	0	0	0	0	0	457	1829	2514	0	800	0	914	0	114	0	914	0	229	0	0	0	0	0	0	0	0	114	0	0	0	114	457
+2007-05-14	0	0	0	114	229	0	3086	0	0	0	229	0	114	0	0	0	0	0	0	0	0	0	0	0	0	8457	229	0	0	1029	0	229	0	114	0	343	0	0	0	0	0	0	0	0	0	0	114	0	114	0	0	229
+2007-05-16	0	0	457	800	114	0	2286	114	0	0	229	114	0	0	0	0	0	0	114	0	0	0	0	0	0	2971	800	114	229	2171	0	571	0	800	0	686	0	0	0	0	0	0	0	0	0	0	0	0	229	0	0	0
+2007-05-21	0	0	571	686	229	229	2629	0	0	114	343	0	0	0	0	0	0	0	114	0	0	0	0	0	0	1600	1943	343	457	1714	114	800	0	800	0	229	114	0	229	0	229	0	0	0	0	0	0	0	0	0	0	0
+2007-05-24	0	0	457	1143	0	114	1829	0	0	0	229	0	0	0	0	0	0	0	0	0	0	0	0	0	0	114	2400	343	114	1486	114	343	0	229	0	114	114	229	229	0	114	0	0	0	0	0	0	0	114	0	0	0
+2007-05-29	0	114	343	1714	343	343	1829	0	0	114	686	114	0	0	0	0	0	0	0	0	0	0	0	0	0	3086	2057	114	0	4229	0	1029	0	800	0	343	343	114	343	0	229	114	0	0	0	0	114	0	0	0	0	0
+2007-05-31	0	0	0	371	686	0	2514	0	0	114	1486	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5486	1943	114	229	5943	0	1600	0	457	0	343	0	114	114	0	0	0	0	0	0	0	0	0	114	0	0	114
+2007-06-04	0	457	457	1143	343	229	1143	571	114	800	2514	114	0	114	0	114	0	0	0	0	0	0	0	0	0	2629	3771	457	114	1257	0	1029	229	343	0	229	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-06-11	0	114	229	0	0	0	571	0	0	343	1371	0	0	686	0	0	0	0	0	0	0	0	0	0	0	1486	9257	800	0	343	0	343	0	114	0	0	114	229	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-06-14	0	0	0	343	0	0	343	114	0	343	114	0	0	343	0	0	0	0	229	0	0	0	0	0	0	4914	800	1943	114	2514	0	1257	0	2514	0	457	0	0	0	0	0	0	0	0	0	0	114	0	0	114	0	114
+2007-06-18	0	114	1029	2629	114	457	686	0	229	457	229	0	229	1371	0	229	457	229	114	0	0	0	0	0	0	3314	1600	914	0	114	114	1943	914	1714	114	343	343	0	0	0	0	0	0	114	0	0	114	0	114	0	0	229
+2007-06-21	0	114	571	800	114	114	224	0	229	114	1143	0	0	1486	0	0	571	114	0	0	114	0	0	0	0	1371	1371	1371	0	457	0	1143	343	686	114	229	0	0	0	0	0	0	0	0	0	114	0	0	0	0	0	114
+2007-06-25	0	114	1029	800	343	229	343	0	114	229	1143	0	0	343	0	0	0	114	229	0	114	0	0	0	0	2514	0	1257	0	229	114	914	0	343	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-06-28	0	0	229	800	114	0	229	0	343	457	457	114	0	1257	343	1829	1029	229	1486	114	229	0	0	0	0	1600	686	457	0	114	0	800	0	571	800	0	0	0	0	0	0	0	114	114	0	0	571	0	0	0	0	0
+2007-07-02	0	0	343	1143	1029	0	1486	0	114	229	1029	114	0	0	0	114	0	114	0	0	0	0	0	0	0	2743	3086	686	0	343	114	1486	229	343	114	114	0	0	0	0	0	114	0	0	114	0	114	0	114	0	0	0
+2007-07-05	0	0	229	571	0	0	914	0	114	457	1143	114	457	343	114	114	229	114	114	0	0	0	0	0	0	114	11086	114	0	114	0	571	114	0	0	0	0	0	0	0	0	114	0	0	0	0	114	114	0	0	0	0
+2007-07-09	0	114	229	1029	343	114	229	0	343	571	1714	114	114	457	114	114	0	0	114	0	0	0	0	0	0	1257	8914	1486	0	114	0	686	114	343	0	229	114	0	0	0	0	0	114	0	0	0	0	0	0	0	0	0
+2007-07-12	0	229	229	1486	914	114	457	0	14	343	1486	0	914	114	0	0	0	114	343	0	0	0	114	0	0	2057	11086	1029	0	800	343	800	114	343	0	114	0	0	0	0	0	0	114	0	0	0	0	0	0	0	0	0
+2007-07-19	0	0	0	3771	1143	0	800	0	0	0	5029	0	114	114	114	0	0	229	343	0	0	0	0	0	0	1143	10857	0	0	114	0	571	0	114	0	0	0	0	0	0	0	0	114	0	0	0	0	0	0	0	0	0
+2007-07-23	0	0	0	1714	229	0	457	0	0	0	800	114	0	0	0	0	0	0	0	0	114	0	114	0	0	1486	27686	4114	0	114	0	343	0	457	0	114	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-07-26	0	114	0	571	571	0	343	0	0	0	1600	0	0	0	0	0	0	229	229	0	0	0	0	0	0	1943	18057	1371	0	0	0	229	114	800	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-07-30	0	0	0	229	57	0	114	0	0	0	686	0	0	0	0	0	0	0	57	0	0	0	0	0	0	457	2514	57	0	0	0	571	0	400	0	171	0	0	0	0	0	0	0	0	0	0	0	0	0	57	0	0
+2007-08-03	0	0	0	57	0	0	171	0	0	0	286	0	0	0	0	0	0	0	57	0	0	0	0	0	0	571	114	686	0	0	0	229	0	743	0	0	0	0	0	0	0	57	0	0	57	0	0	0	0	0	0	0
+2007-08-06	0	0	0	0	114	0	0	0	0	0	114	0	0	0	0	0	0	0	114	0	0	0	0	0	0	1657	1029	57	0	0	0	0	0	686	0	0	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0	0
+2007-08-09	0	0	57	286	229	0	57	0	0	0	1486	0	0	0	0	0	0	400	514	0	0	0	0	0	0	3514	1486	571	0	0	0	286	0	171	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-08-13	0	0	0	114	57	0	57	0	0	0	686	0	0	0	0	0	0	171	114	0	0	0	0	0	0	3714	571	229	0	0	0	514	0	800	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	57
+2007-08-16	0	0	0	457	0	0	0	0	0	0	343	0	0	0	0	0	0	229	229	0	0	0	0	0	0	2743	2743	114	0	0	0	571	0	114	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-08-20	0	0	0	171	57	0	57	0	0	0	171	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2229	2629	343	0	57	0	229	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-08-23	0	0	0	57	57	0	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	686	171	0	0	0	0	57	0	571	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-08-27	0	0	0	114	0	0	57	0	0	0	171	0	0	0	0	0	0	57	171	0	0	0	0	0	0	400	171	171	0	0	0	114	0	400	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-08-30	0	0	0	57	57	0	57	0	0	0	57	0	0	0	0	0	0	0	57	0	0	0	0	0	0	400	171	114	0	0	0	114	0	343	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-09-06	0	0	0	114	57	0	400	171	0	0	57	0	0	0	0	0	0	114	0	0	0	0	0	0	0	343	57	0	0	0	0	571	57	2686	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-09-10	0	0	57	286	114	0	571	229	0	0	229	0	0	0	0	0	0	57	57	0	0	0	0	0	0	686	0	343	0	114	0	686	0	2057	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-09-13	0	0	0	229	114	0	114	57	0	0	171	0	57	0	0	0	0	0	0	0	0	0	0	0	0	114	171	171	0	57	0	400	0	114	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-09-17	0	0	0	286	0	0	114	0	0	0	171	0	0	0	0	0	0	0	57	0	0	0	57	0	0	229	400	114	0	0	0	343	0	400	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-09-20	0	0	57	57	57	0	114	0	0	0	514	0	0	0	0	0	0	514	229	0	0	0	0	0	0	4457	0	400	0	57	0	114	0	857	0	0	0	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0
+2007-09-24	0	0	0	229	0	0	343	0	0	0	286	0	0	0	0	0	0	0	57	0	0	0	0	0	0	514	343	0	0	0	0	457	0	343	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-09-27	0	0	0	171	0	0	0	0	0	0	57	0	0	0	0	0	0	171	57	0	0	0	0	0	0	229	286	171	0	0	0	57	0	343	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-10-01	0	0	0	571	286	57	8057	571	0	0	400	57	114	0	0	0	0	0	0	0	0	0	0	0	0	171	400	57	0	0	0	400	57	229	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-10-04	0	0	114	171	57	114	286	0	0	0	343	171	57	0	0	0	0	0	114	0	57	0	114	0	0	400	1600	57	0	0	0	400	0	457	0	0	0	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0
+2007-10-08	0	0	0	400	171	57	171	0	0	0	229	0	0	0	0	0	0	57	0	0	0	0	0	0	0	229	629	229	0	0	0	629	0	114	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-10-11	0	0	0	171	0	0	629	0	0	0	286	0	0	0	0	0	0	0	171	0	0	0	171	0	0	971	686	171	0	0	0	57	0	343	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-10-15	0	0	0	57	0	0	171	0	0	0	57	0	57	0	0	0	0	57	57	0	0	0	0	0	0	1657	1943	229	0	0	0	57	57	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-10-18	0	0	114	0	0	0	457	0	0	57	229	0	0	0	0	0	0	171	171	0	0	0	0	0	0	171	1657	400	0	0	0	114	0	114	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-10-22	0	0	57	114	0	0	457	0	0	0	286	0	0	0	0	0	0	0	57	0	0	0	57	0	0	57	914	0	0	0	0	343	0	229	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-10-29	0	0	0	0	57	0	171	0	0	57	400	57	0	0	0	0	0	57	114	0	57	0	0	0	0	400	514	457	0	0	0	114	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-11-01	0	0	57	343	0	0	114	0	0	114	171	114	0	0	0	0	0	114	57	0	0	0	0	0	0	57	514	114	0	0	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-11-05	0	0	0	0	0	0	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	114	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-11-12	0	0	286	0	0	0	0	0	114	171	286	57	0	0	0	57	57	57	343	0	57	0	57	0	0	57	629	0	0	0	0	800	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-11-15	0	0	57	114	114	57	57	0	0	114	343	0	57	0	0	114	229	457	343	0	0	114	0	0	0	229	114	0	0	0	0	1371	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-11-22	0	0	114	229	0	57	0	0	0	171	286	0	114	0	57	0	114	0	57	0	171	0	57	0	0	114	457	57	0	0	0	114	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-11-26	0	0	0	0	0	0	0	0	0	57	114	0	0	0	0	0	57	57	0	0	0	0	0	0	0	114	57	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-11-29	0	0	114	57	0	0	0	0	0	114	57	0	57	0	0	400	114	57	0	0	57	0	0	0	0	0	57	0	0	0	0	1257	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-12-06	0	0	114	57	0	0	0	0	0	57	343	114	0	0	0	0	0	0	0	0	0	0	114	0	0	114	1143	0	0	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-12-10	0	0	0	286	0	0	0	0	0	0	286	0	0	0	0	114	57	171	57	0	0	0	0	0	0	57	514	57	0	0	0	743	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-12-20	0	0	0	800	57	0	0	0	0	0	171	0	0	0	0	0	0	57	57	0	0	0	0	0	0	57	343	0	0	0	0	514	0	114	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-12-27	0	0	0	0	0	0	57	0	0	0	171	0	0	0	0	114	57	0	0	0	0	0	0	0	0	171	57	0	0	0	0	114	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2007-12-31	0	0	0	0	0	0	0	0	0	0	400	0	0	0	0	0	0	57	0	0	0	0	57	0	0	0	571	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

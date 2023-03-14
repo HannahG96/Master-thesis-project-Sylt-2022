@@ -1,0 +1,8 @@
+﻿Study area (LWR);Functional Group;Compartment;Family;Studied taxon;Column;LWR;[W];[L];Source;meanL;Source;C/W-ratio;Source;Comments
+North Sea (Helgoland);meroplankton;polychaete larvae;;Lanice conchilega;Lanice;7,668;C [ug];;Franco-Santos et al. (2019);;;;;average in situ carbon content
+Baltic Sea (Knebel Vig)+mesocosm;meroplankton;polychaete larvae;Spionidae;Polydora sp.;Spionidae;1.58*10^(-4)*L^(1.38);C [ug];body length [um];Hansen (1999);700;Pitois et al. (2021);;;
+Baltic Sea (Knebel Vig)+mesocosm;meroplankton;polychaete larvae;Spionidae;Spio/Microcospio sp.;Spionidae;1.34*10^(-5)*L^(1.79);C [ug];body length [um];Hansen (1999);700;Pitois et al. (2021);;;
+Baltic Sea (Knebel Vig)+mesocosm;meroplankton;polychaete larvae;Nereis;Nereis (Neanthes) succinea;Nereis;1.42*10^(-4)*L^(1.47);C [ug];body length [um];Hansen (1999);700;Pitois et al. (2021);;;LWR applied for Nereis sp.
+Wadden Sea;meroplankton;polychaete larvae;;Magelone papilicornis;Magelona;5;DW [ug];;Martens & Beusekom (2008);;;0,373;Silberberger et al. (2020);LWR applied for Magelona sp.
+Wadden Sea;meroplankton;gastropod larvae;;Gastropoda;gastropods;2;DW [ug];;Martens & Beusekom (2008);;;0,335;Silberberger et al. (2020);rejected LWR-biomass calculation of Hansen & Ockelmann (1991): seems to be heavily overestimating biomass of gastropod larvae (~factor 100)
+Baltic Sea (Kalø Vig);meroplankton;bivalve larvae;;Mytilus edulis;Bivalvia;3.06*10^(-8)*L^(2.88);C [ug];shell length [um];Fotel et al. (1999);250;Hendriks et al. (2005);;;roughly estimated mean size value based on the publication of Hendriks: performed length measurements of various species, alternatively use size estimate for bivalve larvae of Pitois (2021): 0.5mm

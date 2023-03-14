@@ -1,0 +1,540 @@
+
+## EXTERNAL
+Imp ! Import
+Exp ! Export
+Resp ! Respiration
+## END EXTERNAL
+
+## COMPONENT
+Dia ! Diatoms
+Phae ! Phaeocystis sp.
+Cil ! Ciliates
+Nsci ! Noctiluca scintillans
+Tun ! Tunicates
+Clado ! Cladocerans
+Cop ! Copepods
+Biv ! Bivalve larvae
+Gastr ! Gastropod larvae
+Poly ! Polychaete larvae
+Hydro ! Hydromedusae
+Ppil ! Pleurobrachia pileus
+Mlei ! Mnemiopsis leidyi
+Bcu ! Beroe cucumis
+Her ! Herring
+Bac ! Bacteria
+Poc ! Particulate organic matter
+Doc ! Dissolved organic matter
+## END COMPONENT
+
+##FLOWS
+!148 flows
+Dia -> Cil
+Dia -> Nsci
+Dia -> Tun
+Dia -> Clado
+Dia -> Cop    
+Dia -> Biv
+Dia -> Gastr
+Dia -> Poly
+Dia -> Mlei
+Dia -> Her    
+Dia -> Doc
+Dia -> Poc
+Dia -> Exp
+Dia -> Resp
+Phae -> Cil   
+Phae -> Nsci
+Phae -> Tun
+Phae -> Clado
+Phae -> Cop
+Phae -> Biv   
+Phae -> Gastr
+Phae -> Poly
+Phae -> Doc
+Phae -> Poc
+Phae -> Exp   
+Phae -> Resp
+Cil -> Nsci
+Cil -> Tun
+Cil -> Clado
+Cil -> Cop    
+Cil -> Biv
+Cil -> Gastr
+Cil -> Poly
+Cil -> Hydro
+Cil -> Ppil   
+Cil -> Mlei
+Cil -> Bcu
+Cil -> Poc
+Cil -> Exp
+Cil -> Resp   
+Nsci -> Ppil
+Nsci -> Mlei
+Nsci -> Bcu
+Nsci -> Poc
+Nsci -> Exp   
+Nsci -> Resp
+Tun -> Hydro
+Tun -> Ppil
+Tun -> Mlei
+Tun -> Bcu    
+Tun -> Her
+Tun -> Poc
+Tun -> Exp
+Tun -> Resp
+Clado -> Hydro
+Clado -> Ppil
+Clado -> Mlei
+Clado -> Bcu
+Clado -> Her
+Clado -> Poc 
+Clado -> Exp
+Clado -> Resp
+Cop -> Hydro
+Cop -> Ppil
+Cop -> Mlei  
+Cop -> Bcu
+Cop -> Her
+Cop -> Poc
+Cop -> Exp
+Cop -> Resp   
+Biv -> Nsci
+Biv -> Poly
+Biv -> Hydro
+Biv -> Ppil
+Biv -> Mlei   
+Biv -> Bcu
+Biv -> Her
+Biv -> Poc
+Biv -> Exp
+Biv -> Resp   
+Gastr -> Hydro
+Gastr -> Ppil
+Gastr -> Mlei
+Gastr -> Bcu
+Gastr -> Her  
+Gastr -> Poc
+Gastr -> Exp
+Gastr -> Resp
+Poly -> Ppil
+Poly -> Mlei  
+Poly -> Bcu
+Poly -> Her
+Poly -> Poc
+Poly -> Exp
+Poly -> Resp 
+Hydro -> Ppil
+Hydro -> Mlei
+Hydro -> Poc
+Hydro -> Exp
+Hydro -> Resp 
+Ppil -> Bcu
+Ppil -> Poc
+Ppil -> Exp
+Ppil -> Resp
+Mlei -> Bcu   
+Mlei -> Poc
+Mlei -> Exp
+Mlei -> Resp
+Bcu -> Poc
+Bcu -> Exp   
+Bcu -> Resp
+Her -> Poc
+Her -> Exp
+Her -> Resp
+Bac -> Cil    
+Bac -> Tun
+Bac -> Biv
+Bac -> Poc
+Bac -> Exp
+Bac -> Resp   
+Doc -> Bac
+Poc -> Cil
+Poc -> Nsci
+Poc -> Tun   
+Poc -> Clado
+Poc -> Cop
+Poc -> Biv
+Poc -> Gastr
+Poc -> Poly   
+Poc -> Exp
+Imp -> Dia
+Imp -> Phae
+Imp -> Cil
+Imp -> Nsci   
+Imp -> Tun
+Imp -> Clado
+Imp -> Cop
+Imp -> Biv
+Imp -> Gastr  
+Imp -> Poly
+Imp -> Hydro
+Imp -> Ppil
+Imp -> Mlei
+Imp -> Bcu   
+Imp -> Her
+Imp -> Doc
+Imp -> Poc
+Doc -> Exp
+## END FLOWS
+
+## PARAMETERS
+
+! Minimum value of a flow to keep a uniform model topology across seasons
+MINIMUM = 0.001
+
+! BIOM: compartment stock sizes { mg C / m3 }
+BIOM_Dia = 54.47766667
+BIOM_Phae = 128.2027222
+BIOM_Phy = 182.6803889 ! sum of diatom and Phaeocystis sp. biomasses
+BIOM_Cil  = 3.916166667
+BIOM_Nsci = 0.001
+BIOM_Tun = 0.040109928
+BIOM_Clado = 0.00836
+BIOM_Cop = 3.030923627
+BIOM_Biv = 3.896363564
+BIOM_Gastr = 0.840477778
+BIOM_Poly = 4.139181853
+BIOM_Hydro = 0.068349186
+BIOM_Ppil = 0.005354975
+BIOM_Mlei = 0.014435918
+BIOM_Bcu = 0.001
+BIOM_Her = 0.304905156
+
+! Phytoplankton parameters
+minNPPvsGPP = 0.637113402! Net particulate and dissolved primary production {mg C/m3/day} / Gross particulate and dissolved primary production {mg C/m3/day}             
+maxNPPvsGPP = 0.925650558
+minGPPvsBIOM = 1.244143582 ! GPP {mg C/m3/day} / Phytoplankton Biomass {mg C/m3}
+maxGPPvsBIOM = 2.269244288
+maxGROWTH_Phae = 2.33045815491704 ! In situ growth rate of Phaeocystis {day^-1}
+minGROWTH_Phae = 0.78474611339043
+maxGROWTH_Dia = 1.587270635 ! In situ growth rate of diatoms {day^-1}
+minGROWTH_Dia = 0.952362381
+maxDOCexs = 0.413611111111111 ! DOC exsudation {fraction of NPP}
+minDOCexs = 0.235833333333333
+
+! Bacteria parameters
+DOCuptake = 1.02040816326531 ! Bacterial DOC uptake rate {fraction of exsudated phytoplankton DOC}
+maxBGE = 0.43 ! Bacterial Growth Efficiency {BP/(BP+R)}
+minBGE = 0.16
+maxPtoR = 4.97388888888889 ! Pelagic Production (NPP)/ Pelagic Respiration 
+minPtoR = 3.73722222222222 
+
+
+! Minimum respiration of micro- & mesozooplankton
+minRESP_Mic = 0.133042479665159
+minRESP_Meso = 0.042499681004148
+
+! Ciliate metabolic rates
+MGR_Cil = 0.608283054432594
+MIR_Cil = 1.58206106717007
+MRR_Cil = 0.333703085323075
+
+! N.scintillans metabolic rates
+MGR_Nsci = 0.280568682901935
+MIR_Nsci = 0.285276608519482
+MRR_Nsci = 0.229568408891305
+
+! Tunicate metabolic rates
+MGR_Tun = 0.708348451185177
+MIR_Tun = 1.22333520695838
+MRR_Tun = 0.115355080604812
+
+! Cladoceran metabolic rates
+MGR_Clado = 0.026807123965383
+MIR_Clado = 0.161136966258402
+MRR_Clado = 0.0923593844928385
+
+! Copepod metabolic rates
+MGR_Cop = 0.109483716136038
+MIR_Cop = 0.433015939806478
+MRR_Cop = 0.0672268433950841
+maxCR_Dia = 0.00590697438399612 ! Clearance rate of diatoms {m3/mg C copepod/day}
+minCR_Dia = 0.00340088970618009
+maxCR_Mic = 0.00756853307351469 ! Clearance rate of microzooplankton {m3/mg C copepod/day}
+minCR_Mic = 0.00271792919801171
+preyC_Dia = 54.4776666666667 ! Prey concentrations {mg C/m3}
+preyC_Mic = 75.2266666666667
+
+! Bivalve larvae metabolic rates
+MGR_Biv = 0.0831588920111815
+MIR_Biv = 0.233099616747645
+MRR_Biv = 0.0234889007796512
+
+! Gastropod larvae metabolic rates
+MGR_Gastr = 0.170723145346525
+MIR_Gastr = 0.172676211313516
+MRR_Gastr = 0.0602665904363836
+
+! Polychaete larvae metabolic rates
+MGR_Poly = 0.218092211702821
+MIR_Poly = 0.474754593664673
+
+! Hydromedusae metabolic rates
+MGR_Hydro = 0.0573093473413715
+MCR_Hydro = 0.00775647528032117
+MRR_Hydro = 0.0489131426788419
+PREY_Hydro = 11.732401564 ! average prey concentration across seasons, using median Nsci biomass {mg C/m3}
+
+! P.pileus metabolic rates
+MGR_Ppil = 0.0641571105342797
+MCR_Ppil = 0.00429200949403421
+MRR_Ppil = 0.0622897163418431
+PREY_Ppil = 15.939932603 ! average prey concentration across seasons, using median Nsci biomass {mg C/m3}
+
+! M.leidyi metabolic rates
+MGR_Mlei = 0.05663330582992
+MCR_Mlei = 0.00456071694988274
+MRR_Mlei = 0.0606857508993112
+PREY_Mlei = 55.494932603 ! average prey concentration across seasons, using median Dia and Nsci biomass {mg C/m3}
+
+! B.cucumis metabolic rates
+MGR_Bcu = 0.0499753758497594
+MCR_Bcu = 0.0016890183173544
+MRR_Bcu = 0.0337438682523628
+PREY_Bcu = 15.89137431 ! average prey concentration across seasons, using median Nsci biomass {mg C/m3}
+
+
+! Herring metabolic rates
+MGR_Her = 0.00481859872132763
+MIR_Her = 0.0648793630730621
+MRR_Her = 0.0154910726792121
+
+! POC Export 
+PocExportToNorthSea = 388.291909416679 ! amount of POC exported to the North Sea {mg POC/m3/day}
+
+## END PARAMETERS
+
+## VARIABLES
+
+! Nutrient input to the system
+NUTR = Imp -> Dia + Imp -> Phae
+
+! Pelagic Respiration
+pelagicRESP = Dia -> Resp + Phae -> Resp + Cil -> Resp + Nsci -> Resp + Tun -> Resp + Clado -> Resp + Cop -> Resp + Biv -> Resp + Gastr -> Resp + Poly -> Resp + Hydro -> Resp + Ppil -> Resp + Mlei -> Resp + Bcu -> Resp + Her -> Resp + Bac -> Resp 
+
+! Net Particulate and Dissolved Primary Production
+NPP_Dia = Dia -> Cil + Dia -> Nsci + Dia -> Tun + Dia -> Clado + Dia -> Cop + Dia -> Biv + Dia -> Gastr + Dia -> Poly + Dia -> Mlei + Dia -> Her + Dia -> Exp + Dia -> Doc + Dia -> Poc
+NPP_Phae = Phae -> Cil + Phae -> Nsci + Phae -> Tun + Phae -> Clado + Phae -> Cop + Phae -> Biv + Phae -> Gastr + Phae -> Poly + Phae -> Exp + Phae -> Doc + Phae -> Poc
+NPP = Dia -> Cil + Dia -> Nsci + Dia -> Tun + Dia -> Clado + Dia -> Cop + Dia -> Biv + Dia -> Gastr + Dia -> Poly + Dia -> Mlei + Dia -> Her + Dia -> Exp + Phae -> Cil + Phae -> Nsci + Phae -> Tun + Phae -> Clado + Phae -> Cop + Phae -> Biv + Phae -> Gastr + Phae -> Poly + Phae -> Exp + Dia -> Doc + Phae -> Doc + Dia -> Poc + Phae -> Poc
+
+! Primary Production of biomass
+PP = Dia -> Cil + Dia -> Nsci + Dia -> Tun + Dia -> Clado + Dia -> Cop + Dia -> Biv + Dia -> Gastr + Dia -> Poly + Dia -> Mlei + Dia -> Her + Dia -> Exp + Phae -> Cil + Phae -> Nsci + Phae -> Tun + Phae -> Clado + Phae -> Cop + Phae -> Biv + Phae -> Gastr + Phae -> Poly + Phae -> Exp
+
+! Biomass Production of Phaeocystis
+PROD_Phae = Phae -> Cil + Phae -> Nsci + Phae -> Tun + Phae -> Clado + Phae -> Cop + Phae -> Biv + Phae -> Gastr + Phae -> Poly + Phae -> Exp
+
+! Biomass Production of Diatoms
+PROD_Dia = Dia -> Cil + Dia -> Nsci + Dia -> Tun + Dia -> Clado + Dia -> Cop + Dia -> Biv + Dia -> Gastr + Dia -> Poly + Dia -> Mlei + Dia -> Her + Dia -> Exp
+
+! Phytoplankton DOC exsudation, mortality and Respiration
+phyDOC = Dia -> Doc + Phae -> Doc
+phyMORT = Dia -> Poc + Phae -> Poc
+phyRESP = Dia -> Resp + Phae -> Resp
+
+! Bacterial Growth Efficiency
+PROD_Bac = Bac -> Cil + Bac -> Tun + Bac -> Biv + Bac -> Exp 
+BCD = Imp -> Doc + Dia -> Doc + Phae -> Doc ! Bacterial Carbon Demand (attached + free-living)
+
+! Ciliate Production and Ingestion
+PROD_Cil =   Cil -> Nsci + Cil -> Tun + Cil -> Clado + Cil -> Cop + Cil -> Biv + Cil -> Gastr + Cil -> Poly + Cil -> Hydro + Cil -> Ppil + Cil -> Mlei + Cil -> Bcu + Cil -> Exp  
+ING_Cil = Dia -> Cil + Phae -> Cil + Bac -> Cil + Poc -> Cil + Imp -> Cil
+
+! N.scintillans Production and Ingestion
+PROD_Nsci = Nsci -> Ppil + Nsci -> Mlei + Nsci -> Bcu + Nsci -> Exp
+ING_Nsci = Dia -> Nsci + Phae -> Nsci + Cil -> Nsci + Biv -> Nsci + Poc -> Nsci + Imp -> Nsci
+
+! Tunicate Production and Ingestion
+PROD_Tun = Tun -> Hydro + Tun -> Ppil + Tun -> Mlei + Tun -> Bcu + Tun -> Her + Tun -> Exp
+ING_Tun = Dia -> Tun + Phae -> Tun + Cil -> Tun + Bac -> Tun + Poc -> Tun + Imp -> Tun
+
+! Cladoceran Production and Ingestion 
+PROD_Clado = Clado -> Hydro + Clado -> Ppil + Clado -> Mlei + Clado -> Bcu + Clado -> Her + Clado -> Exp
+ING_Clado = Dia -> Clado + Phae -> Clado + Cil -> Clado + Poc -> Clado + Imp -> Clado
+
+! Copepod Production and Ingestion
+PROD_Cop = Cop -> Hydro + Cop -> Ppil + Cop -> Mlei + Cop -> Bcu + Cop -> Her + Cop -> Exp
+ING_Cop = Dia -> Cop + Phae -> Cop + Cil -> Cop + Poc -> Cop + Imp -> Cop
+
+! Bivalve Production and Ingestion
+PROD_Biv = Biv -> Nsci + Biv -> Poly + Biv -> Hydro + Biv -> Ppil + Biv -> Mlei + Biv -> Bcu + Biv -> Her + Biv -> Exp 
+ING_Biv = Dia -> Biv + Phae -> Biv + Cil -> Biv + Bac -> Biv + Poc -> Biv + Imp -> Biv
+SpecING_NanoEuk = Dia -> Biv + Phae -> Biv + Imp -> Biv ! Specific ingestion of nanoeukaryotes
+
+! Gastropod Production and Ingestion
+PROD_Gastr = Gastr -> Hydro + Gastr -> Ppil + Gastr -> Mlei + Gastr -> Bcu + Gastr -> Her + Gastr -> Exp
+ING_Gastr =  Dia -> Gastr + Phae -> Gastr + Cil -> Gastr + Poc -> Gastr + Imp -> Gastr
+
+! Polychaete Production and Ingestion
+PROD_Poly = Poly -> Ppil + Poly -> Mlei + Poly -> Bcu + Poly -> Her + Poly -> Exp
+ING_Poly = Dia -> Poly + Phae -> Poly + Cil -> Poly + Biv -> Poly + Poc -> Poly + Imp -> Poly
+
+! Hydromedusae Production and Ingestion
+PROD_Hydro = Hydro -> Ppil + Hydro -> Mlei + Hydro -> Exp
+ING_Hydro = Cil -> Hydro + Tun -> Hydro + Clado -> Hydro + Cop -> Hydro + Biv -> Hydro + Gastr -> Hydro + Imp -> Hydro
+
+! P.pileus Production and Ingestion
+PROD_Ppil = Ppil -> Bcu + Ppil -> Exp
+ING_Ppil = Cil -> Ppil + Nsci -> Ppil + Tun -> Ppil + Clado -> Ppil + Cop -> Ppil + Biv -> Ppil + Gastr -> Ppil + Poly -> Ppil + Hydro -> Ppil + Imp -> Ppil
+
+! M.leidyi Production and Ingestion
+PROD_Mlei = Mlei -> Bcu + Mlei -> Exp
+ING_Mlei = Dia -> Mlei + Cil -> Mlei + Nsci -> Mlei + Tun -> Mlei + Clado -> Mlei + Cop -> Mlei + Biv -> Mlei + Gastr -> Mlei + Poly -> Mlei + Hydro -> Mlei + Imp -> Mlei 
+
+! B.cucumis Production and Ingestion
+PROD_Bcu = Bcu -> Exp
+ING_Bcu = Cil -> Bcu + Nsci -> Bcu + Tun -> Bcu + Clado -> Bcu + Cop -> Bcu + Biv -> Bcu + Gastr -> Bcu + Poly -> Bcu + Ppil -> Bcu + Mlei -> Bcu + Imp -> Bcu   
+
+! Herring Production and Ingestion (total + of food items represented as compartments)
+PROD_Her = Her -> Exp
+ING_Her = Dia -> Her + Tun -> Her + Clado -> Her + Cop -> Her + Biv -> Her + Gastr -> Her + Poly -> Her + Imp -> Her
+
+! Egestions of all living compartments
+EGEST_ALL = Dia -> Poc + Phae -> Poc + Cil -> Poc + Nsci -> Poc + Tun -> Poc + Clado -> Poc + Cop -> Poc + Biv -> Poc + Gastr -> Poc + Poly -> Poc + Hydro -> Poc + Ppil -> Poc + Mlei -> Poc + Bcu -> Poc + Her -> Poc + Bac -> Poc 
+
+## END VARIABLES
+
+## EQUALITIES
+Phae -> Exp = 187.301353
+## END EQUALITIES
+
+## INEQUALITIES
+
+! Pelagic Production vs. Pelagic Respiration
+NPP = [minPtoR, maxPtoR] * pelagicRESP
+
+! Diatoms and Phaeocystis sp.
+NUTR = [minGPPvsBIOM, maxGPPvsBIOM] * BIOM_Phy ! Gross primary production
+NPP = [minNPPvsGPP, maxNPPvsGPP] * NUTR ! Net particulate and dissolved primary production / Gross particulate and dissolved primary production
+phyDOC = [minDOCexs, maxDOCexs] * NPP ! DOC exsudation
+
+Imp -> Phae = [minGPPvsBIOM, maxGPPvsBIOM] * BIOM_Phae ! Gross primary production of Phaeocystis
+NPP_Phae = [minNPPvsGPP, maxNPPvsGPP] * Imp -> Phae ! Net primary production of Phaeocystis
+PROD_Phae = [minGROWTH_Phae, maxGROWTH_Phae] * BIOM_Phae ! Biomass production of Phaeocystis
+Phae -> Doc = [minDOCexs, maxDOCexs] * NPP_Phae ! Doc exudation of Phaeocystis
+Phae -> Poc = [0.05, 0.5] * NPP_Phae ! Mortality and egestion of Phaeocystis
+
+Imp -> Dia = [minGPPvsBIOM, maxGPPvsBIOM] * BIOM_Dia ! Gross primary production of diatoms
+NPP_Dia = [minNPPvsGPP, maxNPPvsGPP] * Imp -> Dia ! Net primary production of diatoms
+PROD_Dia = [minGROWTH_Dia, maxGROWTH_Dia] * BIOM_Dia ! Biomass production of diatoms
+Dia -> Doc = [minDOCexs, maxDOCexs] * NPP_Dia ! Doc exudation of diatoms
+Dia -> Poc = [0.05, 0.5] * NPP_Dia ! Mortality and egestion of diatoms
+
+! Bacteria
+Imp -> Doc + Dia -> Doc + Phae -> Doc < DOCuptake * phyDOC ! DOC inputs should not exceed seasonal carbon demand of bacterial community
+Doc -> Exp > 0.44 * BCD ! DOC exports should at least amount the fraction that goes into production of particle-attached bacteria on an annual average
+PROD_Bac = [minBGE, maxBGE] * Doc -> Bac ! Bacterial Growth Efficiency
+Bac -> Resp > 0.2 * Doc -> Bac ! Respiration
+Bac -> Poc = [0.1, 0.4] * PROD_Bac ! Mortality
+
+! Ciliates
+PROD_Cil < MGR_Cil * BIOM_Cil ! Production
+PROD_Cil = [0.1, 0.6] * ING_Cil ! Gross production efficiency
+ING_Cil < MIR_Cil * BIOM_Cil ! Ingestion
+Cil -> Resp = [minRESP_Mic, MRR_Cil] * BIOM_Cil ! Respiration
+
+! N.scintillans
+PROD_Nsci < MGR_Nsci * BIOM_Nsci ! Production
+PROD_Nsci = [0.1, 0.6] * ING_Nsci ! Gross production efficiency
+ING_Nsci < MIR_Nsci * BIOM_Nsci ! Ingestion
+Poc -> Nsci > Dia -> Nsci + Phae -> Nsci ! Noctiluca consumes more detritus than phytoplankton
+Nsci -> Resp = [minRESP_Meso, MRR_Nsci] * BIOM_Nsci ! Respiration
+
+! Tunicates
+PROD_Tun < MGR_Tun * BIOM_Tun ! Production
+PROD_Tun > 0.5 * ING_Tun
+ING_Tun < MIR_Tun * BIOM_Tun ! Ingestion
+Tun -> Resp = [minRESP_Meso, MRR_Tun] * BIOM_Tun ! Respiration
+Tun -> Poc > 0.1 * ING_Tun ! Egestion
+
+!Cladocerans
+PROD_Clado > 0.5 * ING_Clado ! Production
+ING_Clado < MIR_Clado * BIOM_Clado ! Ingestion
+Clado -> Resp = [minRESP_Meso, MRR_Clado] * BIOM_Clado ! Respiration
+Clado -> Poc > 0.1 * ING_Clado ! Egestion
+
+! Copepods
+PROD_Cop > 0.5 * ING_Cop ! Production
+ING_Cop < MIR_Cop * BIOM_Cop ! Ingestion
+Dia -> Cop = [minCR_Dia, maxCR_Dia] * preyC_Dia * BIOM_Cop ! Specific ingestion of diatoms
+Cil -> Cop + Imp -> Cop = [minCR_Mic, maxCR_Mic] * preyC_Mic * BIOM_Cop ! Specific ingestion of microzooplankton
+Cop -> Resp = [minRESP_Meso, MRR_Cop] * BIOM_Cop ! Respiration
+Cop -> Poc > 0.1 * ING_Cop ! Egestion
+
+! Bivalve larvae
+PROD_Biv < MGR_Biv * BIOM_Biv ! Production
+PROD_Biv > 0.5 * ING_Biv
+ING_Biv < MIR_Biv * BIOM_Biv ! Ingestion
+SpecING_NanoEuk > 0.75 * ING_Biv ! Specific ingestion of nanoeukaryotes
+Phae -> Biv > MINIMUM ! Specific ingestion of Phaeocystis
+Phae -> Biv < 0.7 * SpecING_NanoEuk 
+Cil -> Biv = [0.006, 0.025] * ING_Biv ! Specific ingestion of ciliates
+Bac -> Biv < 0.02 * ING_Biv ! Specific ingestion of bacteria
+Biv -> Resp > 0.2 * ING_Biv ! Respiration
+Biv -> Resp < MRR_Biv * BIOM_Biv 
+Biv -> Poc > 0.1 * ING_Biv ! Egestion
+
+! Gastropod larvae
+PROD_Gastr < MGR_Gastr * BIOM_Gastr ! Production
+PROD_Gastr > 0.5 * ING_Gastr
+ING_Gastr < MIR_Gastr * BIOM_Gastr ! Ingestion
+Gastr -> Resp > 0.2 * ING_Gastr ! Respiration
+Gastr -> Resp < MRR_Gastr * BIOM_Gastr
+Gastr -> Poc > 0.1 * ING_Gastr ! Egestion
+
+! Polychaete larvae
+PROD_Poly < MGR_Poly * BIOM_Poly ! Production
+PROD_Poly > 0.5 * ING_Poly
+ING_Poly < MIR_Poly * BIOM_Poly ! Ingestion
+Poly -> Resp > 0.2 * ING_Poly ! Respiration
+Poly -> Poc > 0.1 * ING_Poly ! Egestion
+Poly -> Poc < Poly -> Resp
+
+! Hydromedusae
+PROD_Hydro < MGR_Hydro * BIOM_Hydro ! Production
+PROD_Hydro > 0.5 * ING_Hydro
+ING_Hydro < MCR_Hydro * PREY_Hydro * BIOM_Hydro ! Ingestion
+Hydro -> Resp > 0.2 * ING_Hydro ! Respiration
+Hydro -> Resp < MRR_Hydro * BIOM_Hydro
+Hydro -> Poc > 0.1 * ING_Hydro ! Egestion
+
+! P.pileus
+PROD_Ppil < MGR_Ppil * BIOM_Ppil ! Production
+PROD_Ppil > 0.5 * ING_Ppil
+ING_Ppil < MCR_Ppil * PREY_Ppil * BIOM_Ppil ! Ingestion
+Ppil -> Resp > 0.2 * ING_Ppil ! Respiration
+Ppil -> Resp < MRR_Ppil * BIOM_Ppil
+Ppil -> Poc > 0.1 * ING_Ppil ! Egestion
+
+! M.leidyi
+PROD_Mlei < MGR_Mlei * BIOM_Mlei ! Production
+PROD_Mlei > 0.5 * ING_Mlei
+ING_Mlei < MCR_Mlei * PREY_Mlei * BIOM_Mlei ! Ingestion
+Mlei -> Resp > 0.2 * ING_Mlei ! Respiration
+Mlei -> Resp < MRR_Mlei * BIOM_Mlei
+Mlei -> Poc > 0.1 * ING_Mlei ! Egestion
+
+! B.cucumis
+!PROD_Bcu < MGR_Bcu * BIOM_Bcu ! Production
+!PROD_Bcu > 0.5 * ING_Bcu
+ING_Bcu < MCR_Bcu * PREY_Bcu * BIOM_Bcu ! Ingestion
+!Bcu -> Resp > 0.2 * ING_Bcu ! Respiration
+!Bcu -> Resp < MRR_Bcu * BIOM_Bcu
+!Bcu -> Poc > 0.1 * ING_Bcu ! Egestion
+
+! Herring
+PROD_Her < MGR_Her * BIOM_Her ! Production
+PROD_Her > 0.5 * ING_Her 
+ING_Her < MIR_Her * BIOM_Her ! Ingestion
+Her -> Resp < MRR_Her * BIOM_Her ! Respiration
+Her -> Resp > 0.0018 * BIOM_Her
+Her -> Poc > 0.066 * ING_Her ! Egestion
+
+! POC Export
+Poc -> Exp > PocExportToNorthSea ! Poc export = at least export to North Sea 
+Poc -> Exp < PocExportToNorthSea + EGEST_ALL
+## END INEQUALITIES
+
+## RATES
+! Rates are assumed zero: system is in a stable state.
+## END RATES

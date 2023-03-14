@@ -1,0 +1,22 @@
+﻿column;id;species;NAs;Phylum/Subphylum;Class;Group
+M.leidyi;1;Mnemiopsis leidyi;0;Ctenophora;Tentaculata;comb jelly
+P.pileus;2;Pleurobrachia pileus;0;Ctenophora;Tentaculata;comb jelly
+S.tubulosa;3;Sarsia tubulosa;0;Cnidaria;Hydrozoa;hydrozoan
+Lucicutia_sp;4;Lucicutia;3;NA;NA;OUT
+Ctenophora_juv.;5;Ctenophora, juv.;0;Ctenophora;NA;comb jelly
+O.geniculata;6;Obelia geniculata;0;Cnidaria;Hydrozoa;hydrozoan
+Bougainvillia_sp;7;Bougainvillia;0;Cnidaria;Hydrozoa;hydrozoan
+B.cucumis;8;Beroe cucumis;0;Ctenophora;Nuda;comb jelly
+Bolinopsis_sp;9;Bolinopsis;0;Ctenophora;Tentaculata;comb jelly
+Clytia_sp;10;Clytia;0;Cnidaria;Hydrozoa;hydrozoan
+Phialella_sp;11;Phialella;0;Cnidaria;Hydrozoa;hydrozoan
+M.haeckelii;12;Margelopsis haeckelii;1;Cnidaria;Hydrozoa;hydrozoan
+R.octopunctata;13;Rathkea octopunctata;0;Cnidaria;Hydrozoa;hydrozoan
+Scyphozoa_juv.;14;Scyphozoa, juv.;0;Cnidaria;Scyphozoa;OUT
+Leuckartiara_sp;15;Leuckartiara;0;Cnidaria;Hydrozoa;hydrozoan
+Nemopsis_sp;16;Nemopsis;0;Cnidaria;Hydrozoa;hydrozoan
+Eucheilota_sp;17;Eucheilota;0;Cnidaria;Hydrozoa;hydrozoan
+E.indicans;18;Eutonina indicans;224;Cnidaria;Hydrozoa;OUT
+Lovenella_sp;19;Lovenella;229;;;OUT
+Cyanea_sp;20;Cyanea;275;Cnidaria;Scyphozoa;OUT
+Aureliaaurita;21;Aurelia aurita;275;Cnidaria;Scyphozoa;OUT
