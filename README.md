@@ -8,24 +8,28 @@ seasonal plankton population dynamics and these pronounced interannual differenc
 that interrupted a series of preceding mild winters. In doing so, this study is the first (1) to describe in detail the pelagic food web of 
 the Sylt-Rømø Bight tidal basin, (2) to explore the seasonality of its structural and functional properties, and (3) to analyse its potential 
 vulnerability to warming winter climate. 
+
 To do so, we assembled data on species seasonal standing stocks from monitoring databases and gathered information on species´ energetics and 
 food spectra from literature to construct six ecological networks (i.e. food web models) that captured the carbon flow (in mg C/m³/day) between 
 pelagic functional groups or species and carbon exchanges with their non-living environment across seasons. These networks comprised 16 living 
 carbon pools (i.e. compartments) that integrated the main autotrophic (diatoms, Phaeocystis sp.) and heterotrophic (bacteria, ciliates, meroplankton, 
-mesozooplankton, jellyfish, herring) functional groups or species of the pelagic zone, as well as two detrital compartments (POC, DOC). We accounted 
-for the seasonality of species´s metabolisms by adapting their ingestion, production and respiration rates to the average seasonal temperature based on 
-Q10 values. The network topology was kept constant (i.e. same number of compartments and links) across seasons to allow for comparisons of the structural 
-and functional food web properties across season. To quantify the carbon flows we used a linear inverse modelling approach in combination with a Monte Carlo sampling technique (i.e. LIM-MCMC) that 
-allowed us to account for the large uncertainties associated with the species´ diets and energetics. Accordingly, the carbon flows of the seasonal food web 
-models comprised 6000-7000 values each and flows were defined by the upper and lower boundary of the value distribution. We then used ecological network 
-analysis (i.e. ENA) routines to describe the seasonal properties of the pelagic food web on the basis of ENA information indices. These indices characterized
-the (1) size and activity, (2) the efficiency of trophic transfer, (3) the connectivity and complexity, (4) the recycling of carbon via detritivore 
-pathways, and (5) the flow organization of the seasonal food web.
+mesozooplankton, jellyfish, herring) functional groups or species of the pelagic zone, as well as two detrital compartments (POC, DOC). 
+
+To quantify the carbon flows we used a linear inverse modelling approach in combination with a Monte Carlo sampling technique (i.e. LIM-MCMC) that 
+allowed us to account for the large uncertainties associated with the species´ diets and energetics. Hence, the carbon flows of the seasonal food web 
+models comprised 6000-7000 values each and flows were defined by the upper and lower boundary of the value distribution. 
+
+We then used ecological network 
+analysis (i.e. ENA) routines to describe the seasonal properties of the pelagic food web on the basis of ENA information indices. These indices characterized the (1) size and activity, (2) the efficiency of trophic transfer, (3) the connectivity and complexity, (4) the recycling of carbon via detritivore pathways, and (5) the flow organization of the seasonal food web.
+
 We asked three questions to describe the pelagic food web and analyse its response to seasonal forcing and contrasting environmental disturbance 
-(i.e. mild vs. ice cold winter).
-•	What are the structural and functional properties of the pelagic food web of the Sylt-Rømø Bight?
-•	Do these properties display seasonal patterns that recur on a yearly basis? 
-•	Did the winter climate constitute a (potential) stress factor for the food web´s functioning of the following year?
+(i.e. mild vs. ice cold winter):
+
+(1)What are the structural and functional properties of the pelagic food web of the Sylt-Rømø Bight?
+
+(2)Do these properties display seasonal patterns that recur on a yearly basis? 
+
+(3)Did the winter climate constitute a (potential) stress factor for the food web´s functioning of the following year?
  
 
 ### Authors:
